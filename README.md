@@ -1,135 +1,93 @@
-<h1 align="center">Hi, I'm Zhehan Hu 👋</h1>
+<h1 align="center">你好，我是胡哲瀚 👋</h1>
 
 <p align="center">
   <a href="https://siempre-2004.github.io/">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=23&duration=2800&pause=1000&color=C1F66B&center=true&vCenter=true&width=850&lines=Game+Design+%7C+Gameplay+Programming;Graphics+%7C+Interactive+Systems;I+make+worlds+you+can+play." alt="Game design, gameplay programming, graphics and interactive systems" />
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;size=23&amp;duration=2800&amp;pause=1000&amp;color=C1F66B&amp;center=true&amp;vCenter=true&amp;width=850&amp;lines=Game+Design+%7C+Gameplay+Programming;Unity+%7C+Unreal+%7C+C%2B%2B+%7C+raylib;I+make+worlds+you+can+play." alt="动态打字：Game Design、Gameplay Programming、Unity、Unreal、C++、raylib" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://siempre-2004.github.io/"><strong>🎮 Explore My Portfolio</strong></a>
+  <a href="https://siempre-2004.github.io/"><strong>🎮 看我的作品集</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/siempre-2004">GitHub</a>
+  <a href="https://zhehanhu.creght.site/">原作品集网站</a>
   &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/zhehan-h-4b0a01293/">LinkedIn</a>
   &nbsp;·&nbsp;
-  <a href="mailto:huzhehanhuzhehan@gmail.com">Email</a>
+  <a href="mailto:huzhehanhuzhehan@gmail.com">联系我</a>
 </p>
 
----
+## 关于我
 
-## About Me
+我叫胡哲瀚，毕业于乌普萨拉大学游戏设计专业。
 
-I have a background in **game design** and work across **gameplay programming, graphics prototypes, and interactive systems**.
+我用 Unity、Unreal 和 C++ 做游戏，做过叙事解谜、关卡设计、狼羊生态模拟，也和团队一起做过用自制钓竿控制的街机。我喜欢把想法做出来，再看看实际玩起来是什么感觉：玩家能不能找到路、看懂提示，角色的动作和反馈是否合适。
 
-I enjoy understanding both sides of an experience: the systems that make it work, and the design decisions that make it feel right.
+在团队项目里，我写过玩法和交互逻辑，也为游戏创作音乐；自己的小项目则更多用来练习寻路、状态机、碰撞检测和地图渲染。目前希望寻找游戏设计或游戏开发相关的机会。
 
-- 🎮 Gameplay systems, level design, and player interaction
-- 🌱 Game AI, finite state machines, and pathfinding
-- 🧩 Real-time graphics and geometry-processing experiments
-- 🎵 Original game music
+## 做过的一些项目
 
-I'm interested in opportunities involving **gameplay programming, technical prototyping, and interactive experiences**.
+### Limbo · 边缘世界
 
-## Tools & Technologies
+**Unity / C# / 关卡设计**
 
-| Area | Tools and topics |
+玩家在一个由记忆和欲望构成的世界里寻找套娃，集齐后打开出口。我搭建关卡，用灯光、地标和物件引导玩家探索，也编写了收集、重生和场景切换的逻辑。
+
+[图文详情](https://siempre-2004.github.io/projects/limbo.html) · [项目网站](https://limbohu.creght.site/) · [看代码](https://github.com/siempre-2004/Limbo)
+
+### Echoes of Silence
+
+**Unreal Engine / Blueprint / 团队项目**
+
+一款围绕记忆展开的第一人称解谜游戏，包含滑块锁、故事柜和摩斯电码等谜题。我编写故事内容、制作部分 Blueprint 交互逻辑，并创作游戏音乐。项目页里放了不同版本的截图，可以看到线索和谜题是怎样一步步调整的。
+
+[图文详情](https://siempre-2004.github.io/projects/echoes-of-silence.html) · [项目网站](https://intramentem.creght.site/) · [看代码](https://github.com/siempre-2004/IntraMentem)
+
+### The Dual-Hatted Courtier · 双重身份的信使
+
+**Unity / Arduino / 团队项目**
+
+这是我们做的一款实体街机。玩家用自制钓竿和颜色传感器操作游戏中的信使，在村庄里躲避守卫、完成收集任务。我主要做装置输入接入、文字交互和部分场景逻辑，也制作了游戏音乐。
+
+[图文详情](https://siempre-2004.github.io/projects/arcade.html) · [项目网站](https://arcadehu.creght.site/) · [看代码](https://github.com/siempre-2004/Arcade_Game)
+
+### AI Prairie · 狼羊生态模拟
+
+**C++ / raylib / 个人项目**
+
+羊会找草、逃跑和繁殖，狼会追逐目标，草地也会生长。我用状态机决定它们当前要做什么，再用 A* 计算路线。运行时可以查看实体状态、观察路径，也可以修改地图，看看它们怎样应对变化。
+
+[图文详情](https://siempre-2004.github.io/projects/ai-prairie.html) · [项目网站](https://ecosystemhu.creght.site/) · [看代码](https://github.com/siempre-2004/EcoSystem_VisualStudio)
+
+### SkyTiles · 瓦片地图原型
+
+**C++ / raylib**
+
+这个项目用来练习地图读取、相机控制和可见性判断。可以切换三种大小的地图、锁定相机范围、重新分布瓦片，观察地图规模和画面之间的关系。
+
+[图文详情](https://siempre-2004.github.io/projects/skytiles.html) · [项目网站](https://huskytiles.creght.site/) · [看代码](https://github.com/siempre-2004/SkyTiles_VisualStudio)
+
+### 其他尝试
+
+- **Four Kingdoms · 四国**：围绕联盟与背叛设计的桌游，尝试让合作有好处，也需要承担风险。[图文详情](https://siempre-2004.github.io/projects/four-kingdoms.html) · [项目网站](https://hufourkingdoms.creght.site/)
+- [小游戏与碰撞实验](https://siempre-2004.github.io/projects/mini-games.html)：章鱼射击、小行星游戏，以及 AABB、SAT 碰撞检测练习。
+- [曲线引导网格编辑](https://siempre-2004.github.io/projects/mesh-editing.html)：一个 Python 几何处理原型，尝试通过移动曲线来调整周围曲面。
+
+## 一些项目画面
+
+| Limbo | Echoes of Silence |
 | --- | --- |
-| Programming | C++ · C# · Python |
-| Game development | Unity · Unreal Engine · Blueprint |
-| Graphics & simulation | raylib · Tile rendering · Camera systems |
-| Game AI | Finite state machines · A* pathfinding |
-| Physical interaction | Arduino · Custom controllers |
-| Collaboration | Git · Jira · Sourcetree |
+| [![Limbo 关卡](assets/limbo.png)](https://siempre-2004.github.io/projects/limbo.html) | [![Echoes of Silence 解谜场景](assets/projects/echoes-environment-reveal.webp)](https://siempre-2004.github.io/projects/echoes-of-silence.html) |
 
-## Selected Projects
+## 常用工具
 
-### 🌱 AI Prairie
+C++、C#、Python；Unity、Unreal Engine、raylib；Arduino、Git、Jira。游戏音乐主要用 Logic Pro 制作。
 
-**C++ · raylib · Finite State Machines · A***
+## 联系我
 
-A predator–prey simulation where sheep, wolves, grass, and a player-controlled herder interact through changing states and pathfinding.
+欢迎交流游戏设计和开发，也欢迎联系我聊合适的工作机会。
 
-- State-driven grazing, wandering, reproduction, and escape
-- A* navigation for pursuing targets
-- Debug views for inspecting entity states and paths
-- Editable terrain and obstacles
+- 邮箱：[huzhehanhuzhehan@gmail.com](mailto:huzhehanhuzhehan@gmail.com)
+- 作品集：[siempre-2004.github.io](https://siempre-2004.github.io/)
+- 原作品集网站：[zhehanhu.creght.site](https://zhehanhu.creght.site/)
 
-[Source Code](https://github.com/siempre-2004/EcoSystem_VisualStudio) · [Project Walkthrough](https://ecosystemhu.creght.site/)
-
-### 🗺️ SkyTiles
-
-**C++ · raylib · Real-time Graphics**
-
-A tile-rendering prototype exploring map scale, camera controls, and visibility.
-
-- Switch between 32 × 32, 128 × 128, and 1024 × 1024 tile maps
-- Toggle frustum culling and camera locking
-- Constrain the camera to map bounds
-- Redistribute tiles to explore different arrangements
-
-[Source Code](https://github.com/siempre-2004/SkyTiles_VisualStudio) · [Project Walkthrough](https://huskytiles.creght.site/)
-
-### 🧭 Limbo
-
-**Unity · C# · Level Design**
-
-A level-design project exploring player guidance, environmental storytelling, and puzzle progression.
-
-**My contributions include:**
-
-- Level layouts and environment building
-- C# gameplay scripting and puzzle activation
-- Collectible-state management and scene transitions
-- Environment interactions, respawn systems, and debugging
-
-[Source Code](https://github.com/siempre-2004/Limbo) · [Level Design Walkthrough](https://limbohu.creght.site/)
-
-### 🧠 Intra Mentem
-
-**Unreal Engine · Blueprint · Team Project**
-
-A first-person psychological puzzle game about memory and reconstruction.
-
-The project combines environmental storytelling, symbolic puzzle rooms, interactions integrated into the game world, and an audio-based Morse code puzzle.
-
-[Source Code](https://github.com/siempre-2004/IntraMentem) · [Project Walkthrough](https://intramentem.creght.site/)
-
-### More Work
-
-| Project | Focus | Links |
-| --- | --- | --- |
-| **The Dual-Hatted Courtier** · Team project | A physical–digital stealth arcade game using Unity and an Arduino fishing-rod controller with a color sensor. | [Code](https://github.com/siempre-2004/Arcade_Game) · [Project](https://arcadehu.creght.site/) |
-| **Four Kingdoms** | A tabletop game exploring cooperation, player decisions, and rule-driven systems. | [Project](https://hufourkingdoms.creght.site/) |
-| **Curve-guided Mesh Editing** | An early geometry-optimization prototype for local mesh deformation, with constraints on curve error, boundary drift, and smoothness. | [Code](https://github.com/siempre-2004/curve-guided-mesh-editing) |
-
-## A Glimpse of My Work
-
-| SkyTiles | Intra Mentem |
-| --- | --- |
-| <img src="assets/skytiles.png" width="440" alt="SkyTiles tile-rendering prototype"> | <img src="assets/intramentem.png" width="440" alt="Intra Mentem puzzle environment"> |
-
-## Let's Connect
-
-I'm interested in building games and interactive experiences that connect technical systems with thoughtful design.
-
-- **Portfolio:** https://siempre-2004.github.io/
-- **Email:** huzhehanhuzhehan@gmail.com
-- **LinkedIn:** [Zhehan Hu](https://www.linkedin.com/in/zhehan-h-4b0a01293/)
-
-<details>
-<summary><strong>中文简介</strong></summary>
-
-我是胡哲瀚，具有游戏设计背景，项目涉及玩法编程、图形原型与交互系统。
-
-我使用 C++、C#、Python、Unity、Unreal Engine 和 raylib，关注游戏规则如何运行，以及玩家如何理解和体验这些系统。
-
-目前希望寻找与游戏开发、技术原型和交互体验相关的机会。
-
-</details>
-
----
-
-<p align="center">
-  <strong>A little code. A whole world.</strong>
-</p>
+<sub>网站内容和视频的更新方法见 [维护说明](docs/site-maintenance.md)。</sub>
