@@ -11,3 +11,9 @@ html[lang=zh-CN] h1{font:500 clamp(46px,5.4vw,76px)/1.25 var(--sans);letter-spac
 html[lang=zh-CN] .brand-name{font-size:12px;letter-spacing:1px}html[lang=zh-CN] .brand-name small{font-size:7px;letter-spacing:.5px}html[lang=zh-CN] .hero-intro{line-height:2;max-width:380px}html[lang=zh-CN] .scene-sticker{font:italic 19px/1.5 var(--sans);max-width:105px}.project h3 a{color:inherit}.project-image:focus-visible{outline:2px solid #668c3e;outline-offset:4px}.project-links{flex-wrap:wrap}.project h3{overflow-wrap:anywhere}.project-description{max-width:100%}html[lang=zh-CN] .about-copy>p{line-height:2.05}@media(max-width:500px){html[lang=zh-CN] .scene-sticker{font-size:14px;max-width:75px}html[lang=zh-CN] .brand-name{font-size:10px}html[lang=zh-CN] .brand-name small{font-size:6px}}
 
 .archive-link{margin-right:24px}
+
+/* Keep designed project covers complete at every card size. */
+.project-image.project-cover{background:#f5f1e8}
+.project-image.project-cover img{object-fit:contain;filter:none}
+.project-image.project-cover .image-fade{display:none}
+.project-image.project-cover .image-number{left:auto;right:18px}
