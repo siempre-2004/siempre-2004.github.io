@@ -5,6 +5,7 @@
   if(!ctx)return;
   const $=id=>document.getElementById(id);
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+  let dark=document.documentElement.dataset.theme==='dark';
   let strings=window.PORTFOLIO.translations.en,playing=false,wireframe=false,paused=reduced.matches;
   let width=600,height=425,scale=52,yaw=.66,time=0,lastTime=0,raf=0,visible=true;
   let pointer={x:0,z:0,active:false},goal=null,score=0,finished=false,messageTimer=null;
@@ -45,7 +46,8 @@
   function drawCube(x,y,z,size,lift=0){
     const a=project(x-size,y+lift,z-size),b=project(x+size,y+lift,z-size),c=project(x+size,y+lift,z+size),d=project(x-size,y+lift,z+size);
     const A=project(x-size,y+lift+size*2,z-size),B=project(x+size,y+lift+size*2,z-size),C=project(x+size,y+lift+size*2,z+size),D=project(x-size,y+lift+size*2,z+size);
-    path([d,c,C,D],'#e4edda','#66795a80',.8);path([b,c,C,B],'#afc598','#66795a80',.8);path([A,B,C,D],'#e9f4d8','#66795a80',.8);
+    const edge=dark?'#8ca47b90':'#66795a80';
+    path([d,c,C,D],dark?'#3b4b35':'#e4edda',edge,.8);path([b,c,C,B],dark?'#2a3825':'#afc598',edge,.8);path([A,B,C,D],dark?'#4b6040':'#e9f4d8',edge,.8);
     line([A,c],'#6f87583b',.6);
   }
   function drawCrystal(crystal){
@@ -55,26 +57,27 @@
     const glow=ctx.createRadialGradient(p[0],p[1],0,p[0],p[1],r*5);glow.addColorStop(0,'#b9ec6b50');glow.addColorStop(1,'#b9ec6b00');ellipse(p[0],p[1],r*5,r*5,glow);
     const top=[p[0],p[1]-r*1.9],bottom=[p[0],p[1]+r*1.6],left=[p[0]-r,p[1]],right=[p[0]+r,p[1]];
     path([top,right,bottom],'#a6d94d','#6a923c',.8);path([top,left,bottom],'#d0f996','#6a923c',.8);line([top,p,bottom],'#eaffcd',.7);
-    if(playing){ctx.fillStyle='#71845b';ctx.font='7px monospace';ctx.textAlign='center';ctx.fillText(String(crystal.i+1).padStart(2,'0'),ground[0],ground[1]+scale*.24);}
+    if(playing){ctx.fillStyle=dark?'#b7c8a3':'#71845b';ctx.font='7px monospace';ctx.textAlign='center';ctx.fillText(String(crystal.i+1).padStart(2,'0'),ground[0],ground[1]+scale*.24);}
   }
   function drawPlayer(){
     const y=elevation(player.x,player.z),bob=player.moving?Math.sin(time*16)*.025:Math.sin(time*2)*.025;
     const p=project(player.x,y+.03,player.z);ellipse(p[0],p[1],scale*.21,scale*.08,'#29311b28');
     const bottom=project(player.x,y+.13+bob,player.z),top=project(player.x,y+.55+bob,player.z),w=scale*.18,h=bottom[1]-top[1];
-    ctx.fillStyle='#303a28';ctx.beginPath();ctx.roundRect(top[0]-w,top[1],w*2,h,Math.min(w*.6,4));ctx.fill();
+    const body=dark?'#829177':'#303a28';
+    ctx.fillStyle=body;ctx.beginPath();ctx.roundRect(top[0]-w,top[1],w*2,h,Math.min(w*.6,4));ctx.fill();
     ctx.fillStyle='#c1f66b';ctx.beginPath();ctx.roundRect(top[0]-w*.8,top[1]+h*.16,w*1.6,h*.29,2);ctx.fill();
     ellipse(top[0]-w*.3,top[1]+h*.3,scale*.022,scale*.032,'#344421');ellipse(top[0]+w*.3,top[1]+h*.3,scale*.022,scale*.032,'#344421');
     const step=player.moving?Math.sin(time*16)*scale*.035:0;
-    line([[bottom[0]-w*.5,bottom[1]-1],[bottom[0]-w*.6,bottom[1]+scale*.1+step]],'#303a28',scale*.06);
-    line([[bottom[0]+w*.5,bottom[1]-1],[bottom[0]+w*.6,bottom[1]+scale*.1-step]],'#303a28',scale*.06);
-    line([[top[0],top[1]],[top[0],top[1]-scale*.09]],'#303a28',1);ellipse(top[0],top[1]-scale*.1,scale*.035,scale*.035,'#8fb64a');
+    line([[bottom[0]-w*.5,bottom[1]-1],[bottom[0]-w*.6,bottom[1]+scale*.1+step]],body,scale*.06);
+    line([[bottom[0]+w*.5,bottom[1]-1],[bottom[0]+w*.6,bottom[1]+scale*.1-step]],body,scale*.06);
+    line([[top[0],top[1]],[top[0],top[1]-scale*.09]],body,1);ellipse(top[0],top[1]-scale*.1,scale*.035,scale*.035,'#8fb64a');
   }
   function draw(){
     ctx.clearRect(0,0,width,height);
     yaw=playing?.66:.66+Math.sin(time*.1)*.045;
-    const shadow=project(0,-.54,.2);ellipse(shadow[0],shadow[1],scale*4.1,scale*1.25,'#56603d08');
+    const shadow=project(0,-.54,.2);ellipse(shadow[0],shadow[1],scale*4.1,scale*1.25,dark?'#00000022':'#56603d08');
     // Small orientation marks keep the landscape grounded without a large UI.
-    ctx.strokeStyle='#b7bfa833';ctx.lineWidth=.7;
+    ctx.strokeStyle=dark?'#80956c24':'#b7bfa833';ctx.lineWidth=.7;
     for(let x=-5;x<=5;x+=1)for(let z=-5;z<=5;z+=1){const p=project(x,-.5,z);ctx.beginPath();ctx.moveTo(p[0]-1.8,p[1]);ctx.lineTo(p[0]+1.8,p[1]);ctx.moveTo(p[0],p[1]-1.8);ctx.lineTo(p[0],p[1]+1.8);ctx.stroke();}
     for(const v of vertices){v.y=elevation(v.x,v.z);v.p=project(v.x,v.y,v.z);v.depth=v.x*Math.sin(yaw)+v.z*Math.cos(yaw);}
     const ordered=faces.map(f=>({f,depth:(vertices[f[0]].depth+vertices[f[1]].depth+vertices[f[2]].depth)/3})).sort((a,b)=>a.depth-b.depth);
@@ -84,15 +87,15 @@
       sides.push([vertices[N*(N+1)+i],vertices[N*(N+1)+i+1]]);
       sides.push([vertices[i*(N+1)+N],vertices[(i+1)*(N+1)+N]]);
     }
-    for(const [a,b]of sides)path([a.p,b.p,project(b.x,-.35,b.z),project(a.x,-.35,a.z)],'#dce4ce', '#a9b79a35',.5);
+    for(const [a,b]of sides)path([a.p,b.p,project(b.x,-.35,b.z),project(a.x,-.35,a.z)],dark?'#222e25':'#dce4ce',dark?'#8aab7435':'#a9b79a35',.5);
     for(const {f}of ordered){
       const a=vertices[f[0]],b=vertices[f[1]],c=vertices[f[2]],avg=(a.y+b.y+c.y)/3;
-      const light=clamp(88-avg*5+(a.y-c.y)*11,77,93),sat=clamp(16+avg*12,13,36);
-      path([a.p,b.p,c.p],wireframe?'#f5f5efc4':`hsl(83 ${sat}% ${light}%)`,wireframe?'#778c6260':'#74896240',.6);
+      const light=dark?clamp(22+avg*7+(a.y-c.y)*13,17,34):clamp(88-avg*5+(a.y-c.y)*11,77,93),sat=dark?11:clamp(16+avg*12,13,36);
+      path([a.p,b.p,c.p],wireframe?(dark?'#101310c4':'#f5f5efc4'):`hsl(${dark?125:83} ${sat}% ${light}%)`,dark?(wireframe?'#a2c47b88':'#94ab8550'):(wireframe?'#778c6260':'#74896240'),.6);
     }
     // A green path across the surface echoes curve-guided geometric editing.
     const curve=[];for(let i=0;i<=80;i++){const z=-3.8+7.6*i/80,x=Math.sin(z*.8)*.65;curve.push(project(x,elevation(x,z)+.012,z));}
-    line(curve,'#8cad60a6',1.25);
+    line(curve,dark?'#b8dc86b0':'#8cad60a6',1.25);
     if(!playing){drawCube(-3.0,elevation(-3,-1.7),-1.7,.19,.13+Math.sin(time*.7)*.09);drawCube(2.65,elevation(2.65,2.7),2.7,.13,.08);}
     if(goal&&playing){const p=project(goal.x,elevation(goal.x,goal.z)+.04,goal.z);ctx.beginPath();ctx.ellipse(p[0],p[1],scale*.15,scale*.07,0,0,Math.PI*2);ctx.strokeStyle='#698b3c';ctx.lineWidth=1;ctx.stroke();line([[p[0]-4,p[1]],[p[0]+4,p[1]]],'#698b3c',.8);}
     for(const t of trail){const p=project(t.x,elevation(t.x,t.z)+.05,t.z);ellipse(p[0],p[1],scale*.07,scale*.03,`rgba(112,153,56,${t.life*.3})`);}
@@ -194,6 +197,7 @@
   $('mesh-toggle').addEventListener('click',()=>{wireframe=!wireframe;$('mesh-toggle').setAttribute('aria-pressed',String(wireframe));draw();});
   $('motion-toggle').addEventListener('click',()=>{paused=!paused;keys.clear();updateText();if(paused&&raf){cancelAnimationFrame(raf);raf=0;}run();});
   window.addEventListener('portfolio-language',e=>{strings=e.detail.strings;updateText();$('scene-message').classList.remove('visible');});
+  window.addEventListener('portfolio-theme',()=>{dark=document.documentElement.dataset.theme==='dark';draw();});
   document.addEventListener('visibilitychange',()=>{keys.clear();if(document.hidden){if(raf)cancelAnimationFrame(raf);raf=0;}else run();});
   if('IntersectionObserver'in window)new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;if(visible)run();else{keys.clear();if(raf)cancelAnimationFrame(raf);raf=0;}},{rootMargin:'100px'}).observe(canvas);
   reduced.addEventListener('change',()=>{if(!playing){paused=reduced.matches;updateText();draw();run();}});
