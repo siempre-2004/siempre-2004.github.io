@@ -112,11 +112,14 @@
     $('scene-hint').textContent=playing?strings.playHint:strings.sceneHint;
     $('motion-toggle').setAttribute('aria-label',paused?strings.resume:strings.pause);
     $('motion-toggle').setAttribute('aria-pressed',String(paused));$('motion-toggle').textContent=paused?'▶':'Ⅱ';
+    window.dispatchEvent(new CustomEvent('portfolio-motion',{detail:{paused,playing}}));
   }
   function burst(x,z){
     const y=elevation(x,z)+.45;
     for(let i=0;i<24;i++){const a=i*Math.PI*2/24;particles.push({x,y,z,vx:Math.cos(a)*(.6+Math.random()),vz:Math.sin(a)*(.6+Math.random()),vy:1+Math.random()*2,life:.8+Math.random()*.5,color:i%3?'#9ec958':'#d0efa4',size:1.5+Math.random()*2});}
     ripples.push({x,z,age:0,power:.14});
+    const p=project(x,y,z),box=canvas.getBoundingClientRect();
+    window.dispatchEvent(new CustomEvent('world-collect',{detail:{x:box.left+p[0],y:box.top+p[1]}}));
   }
   function restart(){
     crystals=crystalPositions.map(([x,z],i)=>({x,z,i,collected:false}));score=0;finished=false;goal=null;player.x=0;player.z=.9;player.dash=0;player.cooldown=0;keys.clear();particles.length=0;trail.length=0;$('score').textContent='0 / 5';
@@ -165,7 +168,7 @@
     const p=destination(e);if(!p)return;
     canvas.focus({preventScroll:true});
     if(playing){e.preventDefault();goal=p;if(paused){paused=false;updateText();run();}}
-    else{pointer={...p,active:true};ripples.push({...p,age:0,power:.36});if(paused)draw();}
+    else{pointer={...p,active:true};ripples.push({...p,age:0,power:.36});window.dispatchEvent(new CustomEvent('world-touch',{detail:{x:e.clientX,y:e.clientY}}));if(paused)draw();}
   });
   canvas.addEventListener('keydown',e=>{
     if(!playing)return;
