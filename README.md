@@ -52,7 +52,7 @@
 
 ### AI Prairie · 狼羊生态模拟
 
-**C++ / raylib / 个人项目**
+**C++ / raylib / 游戏 AI**
 
 羊会找草、逃跑和繁殖，狼会追逐目标，草地也会生长。我用状态机决定它们当前要做什么，再用 A* 计算路线。运行时可以查看实体状态、观察路径，也可以修改地图，看看它们怎样应对变化。
 
@@ -76,7 +76,7 @@
 
 | Limbo | Echoes of Silence |
 | --- | --- |
-| [![Limbo 关卡](assets/limbo.png)](https://siempre-2004.github.io/projects/limbo.html) | [![Echoes of Silence 解谜场景](assets/projects/echoes-environment-reveal.webp)](https://siempre-2004.github.io/projects/echoes-of-silence.html) |
+| [![Limbo 关卡](assets/projects/limbo-gate-display.webp)](https://siempre-2004.github.io/projects/limbo.html) | [![Echoes of Silence 解谜场景](assets/projects/echoes-environment-reveal.webp)](https://siempre-2004.github.io/projects/echoes-of-silence.html) |
 
 ## 常用工具
 

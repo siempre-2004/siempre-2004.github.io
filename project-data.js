@@ -20,10 +20,10 @@ window.PROJECT_DETAILS = [
       "zh": "主角困在由记忆与欲望构成的边缘世界。玩家穿过锈蚀的房屋、木桩防线和金色迷宫，寻找四个套娃，拼回被忽略的家庭记忆，最终打开出口。",
       "en": "A protagonist is trapped in a limbo shaped by memory and desire. Players explore rusted rooms, wooden defenses, and a golden maze, collecting four nesting dolls to reconstruct neglected family memories and open the exit."
     },
-    "hero": "assets/limbo.png",
+    "hero": "assets/projects/limbo-gate-display.webp",
     "heroCaption": {
-      "zh": "Limbo 的场景与探索空间。",
-      "en": "An exploration space in Limbo."
+      "zh": "出口与锈蚀环境 · 展示清理版，清除了编辑器辅助线。",
+      "en": "Exit and rusted environment · presentation cleanup with editor guide lines removed."
     },
     "tags": [
       "Unity",
@@ -107,24 +107,24 @@ window.PROJECT_DETAILS = [
         ],
         "images": [
           {
-            "src": "assets/projects/limbo-rusted.webp",
+            "src": "assets/projects/limbo-house-display.webp",
             "caption": {
-              "zh": "锈蚀房屋：用破败与残留的生活物件表达记忆。",
-              "en": "Rusted rooms: decay contrasts with traces of domestic life."
+              "zh": "童年旧屋中的糖果与蛋糕：把家庭记忆留在场景里。展示清理版。",
+              "en": "Candy and cake in the childhood house connect the space to family memories. Presentation cleanup."
             }
           },
           {
-            "src": "assets/projects/limbo-golden.webp",
+            "src": "assets/projects/limbo-pavilion-display.webp",
             "caption": {
-              "zh": "金色迷宫的 Unity 场景布局。",
-              "en": "The golden maze layout in Unity."
+              "zh": "金色亭子：财富、尖锐地形与交互提示形成视觉重点。展示清理版。",
+              "en": "The golden pavilion: wealth, sharp terrain, and the interaction prompt create a focal point. Presentation cleanup."
             }
           },
           {
-            "src": "assets/projects/limbo-childhood.webp",
+            "src": "assets/projects/limbo-layout-original.webp",
             "caption": {
-              "zh": "玩家视角下的探索场景与物件线索。",
-              "en": "An in-game view of the environment and its clues."
+              "zh": "金色迷宫的原始场景图：观察路线、转折与目标位置。",
+              "en": "Original scene image of the golden maze: routes, turns, and the goal location."
             }
           }
         ]
@@ -179,10 +179,24 @@ window.PROJECT_DETAILS = [
         ],
         "images": [
           {
-            "src": "assets/projects/limbo-dolls.webp",
+            "src": "assets/projects/limbo-collection-original.webp",
             "caption": {
-              "zh": "出口附近的套娃展示，把收集进度变成场景中的可见反馈。",
-              "en": "Dolls near the exit make collection progress visible in the world."
+              "zh": "原始场景图：出口上的四个收集位置，把探索目标和最终出口联系起来。",
+              "en": "Original scene image: four collection slots link the exploration goal to the exit."
+            }
+          },
+          {
+            "src": "assets/projects/limbo-hazards-original.webp",
+            "caption": {
+              "zh": "原始游戏画面：平台、尖刺与角色位置呈现挑战空间。",
+              "en": "Original gameplay image: platforms, spikes, and character placement show the challenge space."
+            }
+          },
+          {
+            "src": "assets/projects/limbo-exit-original.webp",
+            "caption": {
+              "zh": "原始游戏画面：完成收集后开启的出口通路。",
+              "en": "Original gameplay image: the exit route after completing the collection."
             }
           }
         ]
@@ -229,6 +243,43 @@ window.PROJECT_DETAILS = [
             }
           }
         ]
+      },
+      {
+        "id": "iteration",
+        "title": {
+          "zh": "设计迭代：把分散的挑战连成一个世界",
+          "en": "Design iteration: connect the challenges"
+        },
+        "lead": {
+          "zh": "项目文档记录了两项取舍：将三处关卡整合为互相连接的空间，并把谜题从 12 个精简为 4 个，给探索和主题理解留下更多时间。下面是不同取景的早期与后期原图，用来说明方向变化。",
+          "en": "The project documentation records two decisions: connect three areas into one world, and reduce the puzzle count from 12 to 4 to leave more room for exploration and the theme. These original early and later images use different viewpoints and document the change in direction."
+        },
+        "comparisons": [
+          {
+            "title": {
+              "zh": "从明亮环境到封闭、荒凉的空间",
+              "en": "From a bright environment to a closed, desolate world"
+            },
+            "text": {
+              "zh": "这组图展示布局与氛围的设计变化；现有材料没有完整试玩记录，因此不将它写成通关率或体验改善的测试结论。",
+              "en": "The images document a change in layout and atmosphere. The supplied material has no complete playtest record, so this is a design iteration rather than a measured improvement in completion or experience."
+            },
+            "before": {
+              "src": "assets/projects/limbo-early-original.webp",
+              "caption": {
+                "zh": "早期版本 · 明亮的绿色场景，原始画面。",
+                "en": "Early version · a bright green environment, original image."
+              }
+            },
+            "after": {
+              "src": "assets/projects/limbo-late-original.webp",
+              "caption": {
+                "zh": "后期版本 · 相互连接的锈蚀关卡，原始编辑器总览。",
+                "en": "Later version · connected, rusted areas, original editor overview."
+              }
+            }
+          }
+        ]
       }
     ],
     "links": [
@@ -268,10 +319,10 @@ window.PROJECT_DETAILS = [
       "zh": "一款以潜意识和记忆重建为主题的第一人称团队解谜游戏。三个房间分别通过滑块、故事柜与摩斯电码，让玩家从观察空间走向理解主角的经历。",
       "en": "A team-built first-person puzzle game about the subconscious and reconstructing memory. Three rooms use a sliding lock, a story cabinet, and Morse code to connect spatial exploration with the protagonist’s past."
     },
-    "hero": "assets/projects/echoes-environment-reveal.webp",
+    "hero": "assets/projects/echoes-room-original.webp",
     "heroCaption": {
-      "zh": "游戏实录截图：玩家在房间里探索记忆线索。",
-      "en": "Gameplay capture: exploring memory clues inside a room."
+      "zh": "Iteration 1 的房间原图 · 家具、灯光与便条共同构成探索空间。",
+      "en": "Original Iteration 1 room image · furniture, lighting, and notes form the exploration space."
     },
     "tags": [
       "Unreal Engine",
@@ -367,6 +418,13 @@ window.PROJECT_DETAILS = [
               "zh": "输入密码后的正确提示，明确告诉玩家这一步已经完成。",
               "en": "A correct-password response confirms that this step is complete."
             }
+          },
+          {
+            "src": "assets/projects/echoes-gramophone-original.webp",
+            "caption": {
+              "zh": "最终交互中的留声机与 E 键提示，原始游戏画面。",
+              "en": "The gramophone and E-key prompt in the final interaction, original gameplay image."
+            }
           }
         ]
       },
@@ -452,92 +510,84 @@ window.PROJECT_DETAILS = [
           "en": "Documented iteration: from readable text to puzzle clues"
         },
         "lead": {
-          "zh": "从 Pilot 到两轮迭代，故事便条、柜子与留声机逐步建立更明确的叙事联系。原始截图记录了这些具体变化。",
-          "en": "These original iteration captures document changes to notes, the cabinet, and the gramophone."
+          "zh": "Pilot → Iteration 1 → Iteration 2。这里使用答辩材料中提取的独立原图，保留原版英文和各版本文字，让笔记摆放、档案柜线索与留声机密码的变化能够逐一核对。",
+          "en": "Pilot → Iteration 1 → Iteration 2. These individual images come from the seminar material and preserve the original English and version-specific text, documenting changes to note placement, cabinet clues, and the gramophone passcode."
         },
         "comparisons": [
           {
             "title": {
-              "zh": "故事便条：不只把故事放在纸上",
-              "en": "Notes: more than text on a page"
+              "zh": "笔记摆放：让线索靠近玩家会调查的位置",
+              "en": "Note placement: bring clues closer to exploration"
             },
             "text": {
-              "zh": "Pilot 版把叙事作为可阅读的碎片；Iteration 1 开始让碎片记忆与房间中的空间信息联系起来。",
-              "en": "The pilot presents readable narrative fragments. Iteration 1 starts connecting fragmented memory to information in the space."
+              "zh": "Pilot 版的纸条散落在地面；Iteration 1 把笔记移到光源附近，让玩家更容易把它与房间里的探索对象联系起来。",
+              "en": "Notes lie scattered on the floor in the pilot. Iteration 1 moves a note closer to a light source, connecting its placement to exploration in the room."
             },
             "before": {
-              "src": "assets/projects/echoes-01_Pilot_Notes.webp",
+              "src": "assets/projects/echoes-pilot-placement.webp",
               "caption": {
-                "zh": "Pilot · 可直接阅读的记忆便条。",
-                "en": "Pilot · readable memory notes."
+                "zh": "Pilot · 散落在地面的笔记，原始画面。",
+                "en": "Pilot · notes scattered on the floor, original image."
               }
             },
             "after": {
-              "src": "assets/projects/echoes-02_Iteration1_Notes.webp",
+              "src": "assets/projects/echoes-iteration1-placement.webp",
               "caption": {
-                "zh": "Iteration 1 · 记忆碎片与空间相联系。",
-                "en": "Iteration 1 · memory fragments connected to the space."
+                "zh": "Iteration 1 · 光线集中区域中的笔记，原始画面。",
+                "en": "Iteration 1 · a note in a concentrated pool of light, original image."
               }
             }
           },
           {
             "title": {
-              "zh": "故事柜：从提示位置到故事关联",
-              "en": "Cabinet: from a location hint to a story connection"
+              "zh": "档案柜：把文字线索与抽屉位置连起来",
+              "en": "Cabinet: connect the text to a drawer"
             },
             "text": {
-              "zh": "Iteration 1 的柜子主要提示“这里可能有线索”；Iteration 2 把书柜与主角的学习、知识和记忆联系起来，让物件承担叙事信息。",
-              "en": "Iteration 1 mainly points to possible clues. Iteration 2 connects the bookcase to education, knowledge, and memory, giving the object a narrative role."
+              "zh": "两版原英文笔记都保留具体的位置线索。后续版本重新组织留声机、柜子与记忆之间的关系，读完后仍需要回到场景中找到对应抽屉。",
+              "en": "The original English notes retain concrete location clues. The later version reorganizes the relationship between the gramophone, cabinet, and memories, asking the player to return to the space and identify the drawer."
             },
             "before": {
-              "src": "assets/projects/echoes-03_Iteration1_Cabinet.webp",
+              "src": "assets/projects/echoes-iteration1-note.webp",
               "caption": {
-                "zh": "Iteration 1 · 柜子作为解谜提示。",
-                "en": "Iteration 1 · cabinet as a puzzle hint."
+                "zh": "Iteration 1 · 原版英文笔记，保留 4,1 位置文字。",
+                "en": "Iteration 1 · original English note, preserving the 4,1 location text."
               }
             },
             "after": {
-              "src": "assets/projects/echoes-04_Iteration2_Cabinet.webp",
+              "src": "assets/projects/echoes-iteration2-note.webp",
               "caption": {
-                "zh": "Iteration 2 · 柜子成为故事相关线索。",
-                "en": "Iteration 2 · cabinet as a story-related clue."
+                "zh": "Iteration 2 · 原版英文档案柜线索，未重写或翻译画面文字。",
+                "en": "Iteration 2 · original English cabinet clue, with the on-screen wording preserved."
               }
             }
           },
           {
             "title": {
-              "zh": "留声机：把编码和人物记忆联系起来",
-              "en": "Gramophone: connecting the code to a memory"
+              "zh": "留声机：从编码表到人物经历",
+              "en": "Gramophone: from a code table to a personal memory"
             },
             "text": {
-              "zh": "Pilot 版主要提供编码表；Iteration 2 的文字进一步追问编码是否代表“她的记忆”或某个日期，给解码行为增加了人物语境。",
-              "en": "The pilot mainly provides a code table. Iteration 2 asks whether the code refers to a memory of her or a date, adding personal context to decoding."
+              "zh": "Pilot 版先给出摩斯码对照；之后的笔记逐渐引入留声机、人物记忆与日期，Iteration 2 的原文明确出现生日 08/11。版本中的日期和措辞保持原样。",
+              "en": "The pilot supplies a Morse-code table. Later notes introduce the gramophone, personal memories, and dates; the Iteration 2 text explicitly includes the birthday 08/11. Dates and wording remain unchanged across these source images."
             },
             "before": {
-              "src": "assets/projects/echoes-05_Pilot_Gramophone.webp",
+              "src": "assets/projects/echoes-pilot-morse.webp",
               "caption": {
-                "zh": "Pilot · 留声机主要提供编码提示。",
-                "en": "Pilot · gramophone as a code hint."
+                "zh": "Pilot · 原始摩斯码对照笔记。",
+                "en": "Pilot · original Morse-code reference note."
               }
             },
             "after": {
-              "src": "assets/projects/echoes-06_Iteration2_Gramophone.webp",
+              "src": "assets/projects/echoes-iteration2-birthday.webp",
               "caption": {
-                "zh": "Iteration 2 · 编码与人物记忆相联系。",
-                "en": "Iteration 2 · code connected to a personal memory."
+                "zh": "Iteration 2 · 原版英文生日线索 08/11。",
+                "en": "Iteration 2 · original English birthday clue, 08/11."
               }
             }
           }
         ],
-        "images": [
-          {
-            "src": "assets/projects/echoes-cabinet-iteration.webp",
-            "caption": {
-              "zh": "Iteration 2 的柜子谜题：病例资料与记忆碎片相联系。",
-              "en": "Iteration 2 cabinet puzzle: case files connected to memory fragments."
-            }
-          }
-        ]
+        "images": []
       }
     ],
     "links": [
@@ -584,10 +634,10 @@ window.PROJECT_DETAILS = [
       "zh": "一款结合实体控制器与屏幕游戏的团队街机作品。玩家白天是信使，夜晚潜入村庄帮助穷人：穿过守卫的巡逻路线，并通过颜色收集任务完成偷取挑战。",
       "en": "A team arcade game combining a physical controller with an on-screen stealth game. A courier serves officials by day and helps the poor at night, navigating guards and completing color-collection challenges."
     },
-    "hero": "assets/arcade.jpg",
+    "hero": "assets/projects/arcade-controller-closeup.webp",
     "heroCaption": {
-      "zh": "团队制作的街机装置与游戏展示。",
-      "en": "The team's arcade installation and game."
+      "zh": "原始装置照片 · 自制钓竿控制器与彩色目标，保留真实结构与连接。",
+      "en": "Original device photo · the custom fishing-rod controller and colored targets, with the real structure and connections preserved."
     },
     "tags": [
       "Unity",
@@ -656,17 +706,17 @@ window.PROJECT_DETAILS = [
         },
         "images": [
           {
-            "src": "assets/projects/arcade-device.webp",
+            "src": "assets/projects/arcade-setup-original.webp",
             "caption": {
-              "zh": "桌面上的装置、屏幕与连接设备。",
-              "en": "The device, display, and connections on the desk."
+              "zh": "原始装置连接照片：桌面原型、线缆与屏幕。",
+              "en": "Original setup photo: the tabletop prototype, cables, and display."
             }
           },
           {
-            "src": "assets/projects/arcade-controller.webp",
+            "src": "assets/projects/arcade-indicator-original.webp",
             "caption": {
-              "zh": "自制控制器与线路的近距离记录。",
-              "en": "A close view of the custom controller and wiring."
+              "zh": "原始照片：装置指示灯与旁边的游戏屏幕。",
+              "en": "Original photo: the device indicator and adjacent game display."
             }
           }
         ]
@@ -715,10 +765,17 @@ window.PROJECT_DETAILS = [
         ],
         "images": [
           {
-            "src": "assets/projects/arcade-footage.webp",
+            "src": "assets/projects/arcade-hands-on.webp",
             "caption": {
-              "zh": "原项目中的实际装置操作记录。",
-              "en": "Documentation of people operating the physical installation."
+              "zh": "现场操作原图：玩家、控制器与屏幕之间的关系。",
+              "en": "Original onsite photo: the relationship between the player, controller, and screen."
+            }
+          },
+          {
+            "src": "assets/projects/arcade-onsite-original.webp",
+            "caption": {
+              "zh": "另一张现场操作记录；这些照片不代表不同版本或实验条件。",
+              "en": "Another onsite-use record; these photos do not establish different versions or test conditions."
             }
           }
         ]
@@ -767,17 +824,24 @@ window.PROJECT_DETAILS = [
         ],
         "images": [
           {
-            "src": "assets/projects/arcade-inventory.webp",
+            "src": "assets/projects/arcade-night-original.webp",
             "caption": {
-              "zh": "村庄、守卫视野与室内场景的游戏记录。",
-              "en": "Game documentation showing village, guard vision, and indoor spaces."
+              "zh": "夜间村庄原始游戏画面：信使与守卫处于同一行动空间。",
+              "en": "Original night-time village gameplay image: the courier and guard share the mission space."
             }
           },
           {
-            "src": "assets/projects/arcade-text.webp",
+            "src": "assets/projects/arcade-guard-original.webp",
             "caption": {
-              "zh": "颜色收集任务中的文字目标与操作提示。",
-              "en": "Text prompts communicate color-collection goals and controls."
+              "zh": "守卫遭遇原图：红色视野范围提示被发现的风险。",
+              "en": "Original guard encounter: the red vision area communicates detection risk."
+            }
+          },
+          {
+            "src": "assets/projects/arcade-chests-original.webp",
+            "caption": {
+              "zh": "彩色宝箱原图：收集目标与当前物品状态显示在同一画面。",
+              "en": "Original colored-chest scene: collection targets and item state appear in the same view."
             }
           }
         ]
@@ -815,8 +879,8 @@ window.PROJECT_DETAILS = [
               "en": "Original music"
             },
             "text": {
-              "zh": "使用 Logic Pro 制作轻快的钢琴音乐，并结合游戏状态调整声音氛围。",
-              "en": "Compose a light piano soundtrack in Logic Pro and support changes in atmosphere across game states."
+              "zh": "使用 Logic Pro 为游戏创作轻快的钢琴音乐。",
+              "en": "Compose a light piano soundtrack for the game in Logic Pro."
             }
           }
         ]
@@ -856,13 +920,13 @@ window.PROJECT_DETAILS = [
       "en": "Sheep, wolves, and grass, each following their own rules."
     },
     "intro": {
-      "zh": "使用 C++ 和 raylib 制作的个人项目。羊觅食、逃跑和繁殖，狼寻找并追逐目标，草地生长与恢复；玩家通过牧羊人和地图编辑影响这个持续变化的小世界。",
-      "en": "An individual C++ and raylib project. Sheep seek food, escape, and reproduce; wolves find and pursue targets; grass grows and recovers. Players influence this changing world through a herder and terrain editing."
+      "zh": "基于 C++ 和 raylib 的二维生态模拟原型。羊觅食、逃跑和繁殖，狼寻找并追逐目标，草地生长与恢复；玩家通过牧羊人和地图编辑影响这个持续变化的小世界。",
+      "en": "A 2D ecosystem prototype built with C++ and raylib. Sheep seek food, escape, and reproduce; wolves pursue targets; grass grows and recovers. Players influence the world through a herder and terrain editing."
     },
-    "hero": "assets/ecosystem.png",
+    "hero": "assets/projects/prairie-hero-display.webp",
     "heroCaption": {
-      "zh": "生态模拟运行画面：智能体、网格与调试信息。",
-      "en": "The running simulation, with agents, grid, and debugging information."
+      "zh": "二维展示插图 · 沿用项目中的像素羊、狼与草地；运动轨迹和网格排布用于说明。",
+      "en": "2D presentation illustration · pixel sheep, wolves, and grass follow the project’s visual language; paths and grid arrangement are illustrative."
     },
     "tags": [
       "C++",
@@ -877,8 +941,8 @@ window.PROJECT_DETAILS = [
           "en": "PROJECT"
         },
         "text": {
-          "zh": "个人技术项目",
-          "en": "Individual technical project"
+          "zh": "C++ 游戏 AI 与系统原型",
+          "en": "C++ game AI and systems prototype"
         }
       },
       {
@@ -947,17 +1011,17 @@ window.PROJECT_DETAILS = [
         ],
         "images": [
           {
-            "src": "assets/projects/prairie-world.webp",
+            "src": "assets/projects/prairie-behaviors-display.webp",
             "caption": {
-              "zh": "草原上的实体与可行走网格。",
-              "en": "Entities and the walkable grid in the prairie."
+              "zh": "行为展示插图：寻找草地、进食与逃跑是三种行为示例，排版顺序不代表固定状态转换。",
+              "en": "Behavior illustration: seeking food, eating, and escaping are examples, not a fixed transition sequence."
             }
           },
           {
-            "src": "assets/projects/prairie-state.webp",
+            "src": "assets/projects/prairie-world-original.webp",
             "caption": {
-              "zh": "点击实体后查看状态和属性。",
-              "en": "Inspecting an entity's state and properties."
+              "zh": "原始运行截图：智能体、草地、可行走网格与调试状态。",
+              "en": "Original runtime screenshot: agents, grass, the walkable grid, and debug states."
             }
           }
         ]
@@ -992,15 +1056,22 @@ window.PROJECT_DETAILS = [
           {
             "src": "assets/projects/prairie-fsm.webp",
             "caption": {
-              "zh": "状态机与行为实现的原始项目记录。",
-              "en": "Original project documentation of state and behavior implementation."
+              "zh": "原始状态机资料：行为和切换条件的关系。",
+              "en": "Original state-machine documentation: behaviors and transition conditions."
             }
           },
           {
-            "src": "assets/projects/prairie-detection.webp",
+            "src": "assets/projects/prairie-eating-original.webp",
             "caption": {
-              "zh": "检测到威胁后的行为与路径变化记录。",
-              "en": "Documentation of behavior and path changes after detecting a threat."
+              "zh": "原始运行截图：羊的状态标签与觅食、进食行为。",
+              "en": "Original runtime screenshot: sheep state labels, food seeking, and eating."
+            }
+          },
+          {
+            "src": "assets/projects/prairie-chase-original.webp",
+            "caption": {
+              "zh": "原始运行截图：狼追逐、羊逃跑及路径显示。",
+              "en": "Original runtime screenshot: pursuit, escape, and visible paths."
             }
           }
         ]
@@ -1049,17 +1120,10 @@ window.PROJECT_DETAILS = [
         ],
         "images": [
           {
-            "src": "assets/projects/prairie-path.webp",
+            "src": "assets/projects/prairie-path-code.webp",
             "caption": {
-              "zh": "地图编辑与路径重新计算的项目说明。",
-              "en": "Project documentation of map editing and path recalculation."
-            }
-          },
-          {
-            "src": "assets/projects/prairie-reproduction.webp",
-            "caption": {
-              "zh": "繁殖规则带来的数量变化记录。",
-              "en": "Population changes produced by reproduction rules."
+              "zh": "原项目寻路代码记录，点击可放大查看。",
+              "en": "Original pathfinding code record; enlarge to inspect."
             }
           }
         ]
@@ -1103,6 +1167,22 @@ window.PROJECT_DETAILS = [
               "en": "Inspect entities in view mode; edit terrain in editor mode"
             }
           ]
+        ],
+        "images": [
+          {
+            "src": "assets/projects/prairie-editable-display.webp",
+            "caption": {
+              "zh": "地图编辑展示插图：说明网格、地形与实体检查的关系，光标和选框属于示意。",
+              "en": "Map-editing illustration: grid, terrain, and entity inspection; the cursor and selection are illustrative."
+            }
+          },
+          {
+            "src": "assets/projects/prairie-debug-original.webp",
+            "caption": {
+              "zh": "原始运行截图：HP、状态、坐标与路径等调试信息。",
+              "en": "Original runtime screenshot: HP, state, coordinates, and path debug information."
+            }
+          }
         ]
       }
     ],
@@ -1143,10 +1223,10 @@ window.PROJECT_DETAILS = [
       "zh": "基于 raylib 的 C++ 瓦片渲染原型。我实现不同规模的地图读取与切换、相机控制、可见性剔除和瓦片重排，用可操作的画面检查地图与视野之间的关系。",
       "en": "A C++ tile-rendering prototype built with raylib. I implement map loading and switching, camera controls, visibility culling, and tile redistribution to examine the relationship between a map and its view."
     },
-    "hero": "assets/skytiles.png",
+    "hero": "assets/skytiles-cover-2d.webp",
     "heroCaption": {
-      "zh": "SkyTiles 的瓦片地图画面。",
-      "en": "A tile-map view in SkyTiles."
+      "zh": "二维像素展示封面 · 瓦片地图与相机视野示意，运行画面见下方。",
+      "en": "2D pixel-art presentation cover · a tile map and camera-viewport illustration; runtime images follow below."
     },
     "tags": [
       "C++",
@@ -1215,17 +1295,17 @@ window.PROJECT_DETAILS = [
         },
         "images": [
           {
-            "src": "assets/projects/skytiles-large.webp",
+            "src": "assets/projects/skytiles-map-original.webp",
             "caption": {
-              "zh": "大地图的瓦片分布。",
-              "en": "Tile distribution across a large map."
+              "zh": "原始项目画面：大量二维瓦片与地图中的对象。",
+              "en": "Original project image: a dense 2D tile map and its objects."
             }
           },
           {
-            "src": "assets/projects/skytiles-culling.webp",
+            "src": "assets/projects/skytiles-frustum-original.webp",
             "caption": {
-              "zh": "带调试信息的地图与可见性检查画面。",
-              "en": "Map and visibility inspection with debugging information."
+              "zh": "原始视野演示画面：瓦片集中在当前可见范围。",
+              "en": "Original visibility demonstration: tiles within the current view."
             }
           }
         ]
@@ -1253,16 +1333,25 @@ window.PROJECT_DETAILS = [
             "before": {
               "src": "assets/projects/skytiles-before.webp",
               "caption": {
-                "zh": "BeforeCKey · 操作前的观察画面。",
-                "en": "BeforeCKey · view before the camera-range operation."
+                "zh": "原始演示图 · 按 C 调整之前的地图与相机视图。",
+                "en": "Original demonstration image · map and camera before the C-key adjustment."
               }
             },
             "after": {
               "src": "assets/projects/skytiles-after.webp",
               "caption": {
-                "zh": "AfterCKey · 操作后的观察画面。",
-                "en": "AfterCKey · view after the camera-range operation."
+                "zh": "原始演示图 · 按 C 调整后的地图与相机视图。",
+                "en": "Original demonstration image · map and camera after the C-key adjustment."
               }
+            }
+          }
+        ],
+        "images": [
+          {
+            "src": "assets/projects/skytiles-camera-original.webp",
+            "caption": {
+              "zh": "原始相机局部视图，保留地图与背景的空间关系。",
+              "en": "Original local camera view, preserving the map’s relationship to the background."
             }
           }
         ]
@@ -1353,10 +1442,10 @@ window.PROJECT_DETAILS = [
       "zh": "以四国竞争为背景的桌游项目。玩家调兵、守城、结盟和背叛，围绕地图、卡牌与传送港口做选择。设计的核心问题是：怎样让合作值得尝试，又保留选择的代价？",
       "en": "A board-game project about four competing kingdoms. Players deploy troops, defend cities, form alliances, and betray partners through a shared map, cards, and teleport ports. The design asks how to make cooperation appealing while retaining its costs."
     },
-    "hero": "assets/four-kingdoms.png",
+    "hero": "assets/projects/kingdoms-map-display.webp",
     "heroCaption": {
-      "zh": "桌面原型与玩家操作。",
-      "en": "The tabletop prototype in play."
+      "zh": "团队原型中的四张手绘地图：保留原节点、连线、桥梁与港口，统一排版展示。",
+      "en": "Four hand-drawn maps from the team prototype: original nodes, routes, bridges, and ports, arranged for presentation."
     },
     "tags": [
       "系统设计 / System design",
@@ -1380,8 +1469,8 @@ window.PROJECT_DETAILS = [
           "en": "MY WORK"
         },
         "text": {
-          "zh": "机制设计、地图绘制与合作机制分析",
-          "en": "Mechanics, map drawing, and analysis of cooperation"
+          "zh": "玩法研究、测试反馈分析与个人报告撰写",
+          "en": "Game-design research, playtest analysis, and the individual report"
         }
       },
       {
@@ -1390,8 +1479,8 @@ window.PROJECT_DETAILS = [
           "en": "METHOD"
         },
         "text": {
-          "zh": "桌面原型与规则调整",
-          "en": "Tabletop prototypes and rule adjustments"
+          "zh": "五轮测试的观察、问卷与访谈记录",
+          "en": "Observations, questionnaires, and interviews across five playtest iterations"
         }
       }
     ],
@@ -1434,15 +1523,7 @@ window.PROJECT_DETAILS = [
             }
           }
         ],
-        "images": [
-          {
-            "src": "assets/projects/kingdoms-overview.webp",
-            "caption": {
-              "zh": "四国地图与不同区域的布局。",
-              "en": "Maps and regional layouts for the four kingdoms."
-            }
-          }
-        ]
+        "images": []
       },
       {
         "id": "iteration",
@@ -1488,17 +1569,24 @@ window.PROJECT_DETAILS = [
         ],
         "images": [
           {
-            "src": "assets/projects/kingdoms-prototype.webp",
+            "src": "assets/projects/kingdoms-card-evolution.webp",
             "caption": {
-              "zh": "早期桌面原型与规则讨论记录。",
-              "en": "An early tabletop prototype and rule-discussion record."
+              "zh": "真实卡牌前后版本：由原始牌面与独立注释整理，保留手绘角色。",
+              "en": "Documented card versions: original card artwork with separate annotations; hand-drawn characters are preserved."
             }
           },
           {
-            "src": "assets/projects/kingdoms-playtest.webp",
+            "src": "assets/projects/kingdoms-command-iteration.webp",
             "caption": {
-              "zh": "玩家实际操作棋盘与标记。",
-              "en": "Players using the board and tokens."
+              "zh": "指令反馈记录与规则调整示意；右侧示意不作为真实对局或独立版本截图。",
+              "en": "Command-feedback record and a rule-adjustment illustration; the illustration is not a recorded match or separate version."
+            }
+          },
+          {
+            "src": "assets/projects/kingdoms-movement-iteration.webp",
+            "caption": {
+              "zh": "移动反馈与港口通路的过程图，由原始记录和地图标注整理。",
+              "en": "Movement feedback and port-route process image, assembled from source records and map annotations."
             }
           }
         ]
@@ -1512,7 +1600,16 @@ window.PROJECT_DETAILS = [
         "lead": {
           "zh": "把“合作是否可靠”拆成可玩的规则：玩家能得到什么、需要付出什么、什么时候值得背叛。地图、卡牌和联盟机制需要一起调整，单独改一条规则也可能改变整个局面。",
           "en": "Turn the question of reliable cooperation into playable decisions: what a player gains, what it costs, and when betrayal becomes attractive. Maps, cards, and alliances need to be considered together because one rule can change the whole game."
-        }
+        },
+        "images": [
+          {
+            "src": "assets/projects/kingdoms-playtest.webp",
+            "caption": {
+              "zh": "原始试玩照片：玩家操作团队制作的棋盘与标记。",
+              "en": "Original playtest photo: players using the team-built board and tokens."
+            }
+          }
+        ]
       }
     ],
     "links": [
