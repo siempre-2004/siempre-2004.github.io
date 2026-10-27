@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <canvas id="ambient" class="ambient-layer" aria-hidden="true"></canvas>
   <a class="skip" href="#work" data-i18n="skip">跳到精选作品</a>
   <header class="header wrap">
     <a class="brand" href="#home" aria-label="胡哲瀚的作品集首页"><span class="brand-symbol">zh<span>✳</span></span><span class="brand-name"><span data-i18n="name">胡哲瀚</span><br><small data-i18n="brand">游戏设计 · 开发</small></span></a>
@@ -25,25 +26,25 @@
     <section class="hero wrap" aria-labelledby="hero-title">
       <div class="hero-copy">
         <div class="eyebrow"><span class="tiny-cross" aria-hidden="true">+</span><span data-i18n="eyebrow">游戏设计 · 玩法开发 · 技术原型</span></div>
-        <h1 id="hero-title" data-i18n="heroTitle">让想象变成<br>可以<em>玩的世界。</em></h1>
-        <p class="hero-intro" data-i18n="heroIntro">我是胡哲瀚，毕业于乌普萨拉大学游戏设计专业。我用 Unity、Unreal 和 C++，把关卡、玩法和技术原型做成可玩的作品。</p>
-        <div class="hero-actions"><a class="button dark" href="#work"><span data-i18n="explore">探索我的作品</span><span aria-hidden="true">↓</span></a><span class="hero-note" data-i18n="heroNote">一点逻辑。<br>很多想象。</span></div>
+        <h1 id="hero-title" data-i18n="heroTitle">我是胡哲瀚。<br>做游戏，<em>写代码。</em></h1>
+        <p class="hero-intro" data-i18n="heroIntro">毕业于乌普萨拉大学游戏设计专业。我用 Unity、Unreal 和 C++ 做关卡、玩法和技术实验。下面可以看到游戏怎么玩、我做了什么，以及后来的改动。</p>
+        <div class="hero-actions"><a class="button dark" href="#work"><span data-i18n="explore">探索我的作品</span><span aria-hidden="true">↓</span></a><span class="hero-note" data-i18n="heroNote">右边可以玩。<br>往下看项目。</span></div>
       </div>
 
       <figure class="playground" id="playground" aria-labelledby="scene-caption">
         <div class="scene-top"><span><i class="live-dot" aria-hidden="true"></i><span data-i18n="liveWorld">一个实时运行的小世界</span></span><span id="world-mode" data-i18n="surfaceMode">01 / 曲面实验</span></div>
         <canvas id="world" tabindex="0" role="application" aria-label="Interactive geometric world. Press Play, then use arrow keys or W A S D to collect five green crystals. You can also click or tap a destination." aria-describedby="scene-hint"></canvas>
-        <div class="scene-sticker" aria-hidden="true"><span data-i18n="sticker">一个<br><em>可玩的世界</em></span><svg viewBox="0 0 60 40"><path d="M4 4Q25 36 55 25M44 18L56 25L46 34"/></svg></div>
+        <div class="scene-sticker" aria-hidden="true"><span data-i18n="sticker">收集 5 块<br><em>绿色碎片。</em></span><svg viewBox="0 0 60 40"><path d="M4 4Q25 36 55 25M44 18L56 25L46 34"/></svg></div>
         <div class="scene-hud" id="scene-hud" hidden><span class="hud-icon" aria-hidden="true">◆</span><span id="score">0 / 5</span><span class="hud-label" data-i18n="fragments">能量碎片</span><button id="restart" type="button" data-i18n="restart">重新开始 ↻</button></div>
         <div class="scene-controls"><button class="play-button" id="play" type="button"><span class="play-icon" aria-hidden="true">▶</span><span data-i18n="play">进入这个世界</span></button><button class="mesh-toggle" id="mesh-toggle" type="button" aria-pressed="false"><span aria-hidden="true">▧</span><span data-i18n="wireframe">线框模式</span></button><button class="motion-toggle" id="motion-toggle" type="button" aria-pressed="false" aria-label="暂停动画">Ⅱ</button></div>
         <figcaption id="scene-caption"><span id="scene-hint" data-i18n="sceneHint">移动鼠标，看看地形如何回应你。</span><span class="coordinates" aria-hidden="true" id="coordinates">x 0.00 · y 0.00</span></figcaption>
         <div class="scene-message" id="scene-message" role="status" aria-live="polite"></div>
       </figure>
-      <div class="hero-footer"><span data-i18n="heroFoot">用代码创造，也用人的视角思考。</span><span><span data-i18n="portfolio">作品集 / 2026</span> <span class="asterisk" aria-hidden="true">✳</span></span></div>
+      <div class="hero-footer"><span data-i18n="heroFoot">关卡设计 / 玩法实现 / 技术实验</span><span><span data-i18n="portfolio">作品集 / 2026</span> <span class="asterisk" aria-hidden="true">✳</span></span></div>
     </section>
 
     <section class="work wrap" id="work" aria-labelledby="work-title">
-      <div class="section-heading"><div><div class="eyebrow" data-i18n="workEyebrow">01 — 让想法落地</div><h2 id="work-title" data-i18n="workTitle">精选<em>作品。</em></h2></div><p data-i18n="workIntro">从世界如何运转，<br>到身处其中的感受。</p></div>
+      <div class="section-heading"><div><div class="eyebrow" data-i18n="workEyebrow">01 — 让想法落地</div><h2 id="work-title" data-i18n="workTitle">精选<em>作品。</em></h2></div><p data-i18n="workIntro">点开项目，看看玩法、<br>我的工作和改动过程。</p></div>
       <div class="filters" role="group" aria-label="按项目方向筛选"><button class="active" data-filter="all" aria-pressed="true" data-i18n="filterAll">全部项目 <sup>08</sup></button><button data-filter="systems" aria-pressed="false" data-i18n="filterSystems">图形与系统</button><button data-filter="games" aria-pressed="false" data-i18n="filterGames">游戏与交互</button></div>
       <div class="project-grid" id="project-grid"></div>
       <noscript><p>可以直接查看项目：<a href="./projects/limbo.html">Limbo</a>、<a href="./projects/echoes-of-silence.html">Echoes of Silence</a>、<a href="./projects/arcade.html">街机装置</a>、<a href="./projects/ai-prairie.html">AI Prairie</a>、<a href="./projects/skytiles.html">SkyTiles</a>、<a href="./projects/four-kingdoms.html">四国</a>、<a href="./projects/mini-games.html">小游戏</a>、<a href="./projects/mesh-editing.html">网格编辑</a>。</p></noscript>
@@ -60,6 +61,7 @@
   <footer class="footer wrap"><span>© <span id="year">2026</span> 胡哲瀚 · Zhehan Hu</span><span data-i18n="footerNote">由好奇心驱动。欢迎亲手探索。</span><a href="#home"><span data-i18n="backTop">回到顶部</span> ↑</a></footer>
   <script src="./content.js" defer></script>
   <script src="./world.js" defer></script>
+  <script src="./ambient.js" defer></script>
   <script src="./app.js" defer></script>
 </body>
 </html>
