@@ -20,10 +20,10 @@ window.PROJECT_DETAILS = [
       "zh": "主角困在由记忆与欲望构成的边缘世界。玩家穿过锈蚀的房屋、木桩防线和金色迷宫，寻找四个套娃，拼回被忽略的家庭记忆，最终打开出口。",
       "en": "A protagonist is trapped in a limbo shaped by memory and desire. Players explore rusted rooms, wooden defenses, and a golden maze, collecting four nesting dolls to reconstruct neglected family memories and open the exit."
     },
-    "hero": "assets/projects/limbo-gate-display.webp",
+    "hero": "assets/projects/limbo-doll-embrace-clean.png",
     "heroCaption": {
-      "zh": "出口与锈蚀环境 · 展示清理版，清除了编辑器辅助线。",
-      "en": "Exit and rusted environment · presentation cleanup with editor guide lines removed."
+      "zh": "玩偶与拥抱剪影：画面经过放大清理，去除了 Unity 编辑器辅助线。",
+      "en": "Nesting doll and an embracing silhouette: presentation cleanup and enlargement, with Unity editor guides removed."
     },
     "tags": [
       "Unity",
@@ -125,6 +125,13 @@ window.PROJECT_DETAILS = [
             "caption": {
               "zh": "金色迷宫的原始场景图：观察路线、转折与目标位置。",
               "en": "Original scene image of the golden maze: routes, turns, and the goal location."
+            }
+          },
+          {
+            "src": "assets/projects/limbo-doll-embrace-original.png",
+            "caption": {
+              "zh": "原始场景截图：前景玩偶与远处的拥抱剪影相互呼应。",
+              "en": "Original scene capture: the foreground doll echoes the embracing silhouette in the distance."
             }
           }
         ]
@@ -319,10 +326,10 @@ window.PROJECT_DETAILS = [
       "zh": "一款以潜意识和记忆重建为主题的第一人称团队解谜游戏。三个房间分别通过滑块、故事柜与摩斯电码，让玩家从观察空间走向理解主角的经历。",
       "en": "A team-built first-person puzzle game about the subconscious and reconstructing memory. Three rooms use a sliding lock, a story cabinet, and Morse code to connect spatial exploration with the protagonist’s past."
     },
-    "hero": "assets/projects/echoes-room-original.webp",
+    "hero": "assets/projects/echoes-floating-letters.jpg",
     "heroCaption": {
-      "zh": "Iteration 1 的房间原图 · 家具、灯光与便条共同构成探索空间。",
-      "en": "Original Iteration 1 room image · furniture, lighting, and notes form the exploration space."
+      "zh": "漂浮信件走廊 · 原始游戏画面。",
+      "en": "Floating letters in the corridor · original game capture."
     },
     "tags": [
       "Unreal Engine",
@@ -613,7 +620,8 @@ window.PROJECT_DETAILS = [
         }
       }
     ],
-    "videos": []
+    "videos": [],
+    "heroPosition": "50% 52%"
   },
   {
     "id": "arcade",
@@ -1442,10 +1450,10 @@ window.PROJECT_DETAILS = [
       "zh": "以四国竞争为背景的桌游项目。玩家调兵、守城、结盟和背叛，围绕地图、卡牌与传送港口做选择。设计的核心问题是：怎样让合作值得尝试，又保留选择的代价？",
       "en": "A board-game project about four competing kingdoms. Players deploy troops, defend cities, form alliances, and betray partners through a shared map, cards, and teleport ports. The design asks how to make cooperation appealing while retaining its costs."
     },
-    "hero": "assets/projects/kingdoms-map-display.webp",
+    "hero": "assets/projects/kingdoms-board-original.png",
     "heroCaption": {
-      "zh": "团队原型中的四张手绘地图：保留原节点、连线、桥梁与港口，统一排版展示。",
-      "en": "Four hand-drawn maps from the team prototype: original nodes, routes, bridges, and ports, arranged for presentation."
+      "zh": "原始手绘地图与进攻、治疗、防御卡牌的组合展示；点击查看完整地图。",
+      "en": "Original hand-drawn board and attack, heal, and defense cards, arranged for presentation. Open to inspect the complete board."
     },
     "tags": [
       "系统设计 / System design",
@@ -1523,7 +1531,22 @@ window.PROJECT_DETAILS = [
             }
           }
         ],
-        "images": []
+        "images": [
+          {
+            "src": "assets/projects/kingdoms-board-original.png",
+            "caption": {
+              "zh": "四国完整原始地图：保留手绘路线、据点、桥梁与港口。",
+              "en": "Complete original Four Kingdoms board, with hand-drawn routes, locations, bridges, and ports."
+            }
+          },
+          {
+            "src": "assets/projects/kingdoms-cards-original.png",
+            "caption": {
+              "zh": "原始手绘卡牌：进攻、治疗、防御及对应的指令牌。",
+              "en": "Original hand-drawn cards: attack, heal, defense, and their command cards."
+            }
+          }
+        ]
       },
       {
         "id": "iteration",
@@ -1621,7 +1644,8 @@ window.PROJECT_DETAILS = [
         }
       }
     ],
-    "videos": []
+    "videos": [],
+    "heroComposition": "kingdoms"
   },
   {
     "id": "mini",

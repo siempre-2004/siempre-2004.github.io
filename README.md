@@ -76,7 +76,7 @@
 
 | Limbo | Echoes of Silence |
 | --- | --- |
-| [![Limbo 关卡](assets/projects/limbo-gate-display.webp)](https://siempre-2004.github.io/projects/limbo.html) | [![Echoes of Silence 解谜场景](assets/projects/echoes-environment-reveal.webp)](https://siempre-2004.github.io/projects/echoes-of-silence.html) |
+| [![Limbo 关卡](assets/projects/limbo-doll-embrace-clean.png)](https://siempre-2004.github.io/projects/limbo.html) | [![Echoes of Silence 解谜场景](assets/projects/echoes-floating-letters.jpg)](https://siempre-2004.github.io/projects/echoes-of-silence.html) |
 
 ## 常用工具
 
