@@ -642,10 +642,11 @@ window.PROJECT_DETAILS = [
       "zh": "一款结合实体控制器与屏幕游戏的团队街机作品。玩家白天是信使，夜晚潜入村庄帮助穷人：穿过守卫的巡逻路线，并通过颜色收集任务完成偷取挑战。",
       "en": "A team arcade game combining a physical controller with an on-screen stealth game. A courier serves officials by day and helps the poor at night, navigating guards and completing color-collection challenges."
     },
-    "hero": "assets/projects/arcade-controller-closeup.webp",
+    "hero": "assets/projects/arcade-playtest-restored.png",
+    "heroPosition": "50% 48%",
     "heroCaption": {
-      "zh": "原始装置照片 · 自制钓竿控制器与彩色目标，保留真实结构与连接。",
-      "en": "Original device photo · the custom fishing-rod controller and colored targets, with the real structure and connections preserved."
+      "zh": "试玩现场 · 玩家使用自制钓竿控制器操作游戏。照片经过 AI 清晰度与暗部修复。",
+      "en": "Playtest · using the custom fishing-rod controller. Photo enhanced with AI for clarity and shadow detail."
     },
     "tags": [
       "Unity",
@@ -773,7 +774,7 @@ window.PROJECT_DETAILS = [
         ],
         "images": [
           {
-            "src": "assets/projects/arcade-hands-on.webp",
+            "src": "assets/projects/arcade-playtest-original.png",
             "caption": {
               "zh": "现场操作原图：玩家、控制器与屏幕之间的关系。",
               "en": "Original onsite photo: the relationship between the player, controller, and screen."
