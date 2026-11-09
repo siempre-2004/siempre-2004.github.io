@@ -7,3 +7,9 @@
 /* Photographic cover crops match the homepage; the lightbox keeps the full image. */
 .case-hero-fitted .zoom-image{height:auto;aspect-ratio:3/2;display:block}
 .case-hero-fitted .zoom-image>img{height:100%;width:100%;object-fit:cover}
+
+/* Featured footage stays in its original widescreen format. */
+.case-actions{display:flex;align-items:center;flex-wrap:wrap;gap:16px 24px;margin-top:25px}
+.case-actions .text-link{font-size:11px}
+.case-video-hero{scroll-margin-top:24px}
+.case-video-hero video{display:block;aspect-ratio:16/9;max-height:none;object-fit:contain}
