@@ -774,17 +774,17 @@ window.PROJECT_DETAILS = [
         ],
         "images": [
           {
-            "src": "assets/projects/arcade-playtest-original.png",
+            "src": "assets/projects/arcade-controller-closeup.webp",
             "caption": {
-              "zh": "现场操作原图：玩家、控制器与屏幕之间的关系。",
-              "en": "Original onsite photo: the relationship between the player, controller, and screen."
+              "zh": "钓竿、手柄与接线近景。",
+              "en": "Close-up of the fishing rod, handle, and wiring."
             }
           },
           {
-            "src": "assets/projects/arcade-onsite-original.webp",
+            "src": "assets/projects/arcade-fishing-session-original.webp",
             "caption": {
-              "zh": "另一张现场操作记录；这些照片不代表不同版本或实验条件。",
-              "en": "Another onsite-use record; these photos do not establish different versions or test conditions."
+              "zh": "现场试玩：使用钓竿操作，查看屏幕里的反馈。",
+              "en": "Onsite play: operating the fishing rod while checking the on-screen feedback."
             }
           }
         ]
