@@ -32,6 +32,7 @@
 | Arcade | arcade-guard-original.webp | Arcade_Agency_Kit/Arcade_Agency_Kit/04_Original_Assets/A06_Guard_Scene.png | 原始素材 |
 | Arcade | arcade-chests-original.webp | Arcade_Agency_Kit/Arcade_Agency_Kit/04_Original_Assets/A07_Coloured_Chest_Scene.png | 原始素材 |
 | Arcade | arcade-onsite-original.webp | Arcade_Agency_Kit/Arcade_Agency_Kit/04_Original_Assets/A09_Playtest_Portrait.png | 原始素材 |
+| Arcade | arcade-fishing-session-original.webp | 用户补充的现场钓竿试玩照片 | 沿用此前准备的 WebP 原图；使用新文件名，避免旧版试玩照片的缓存 |
 | Echoes of Silence | echoes-room-original.webp | Echoes_English_Original_Assets_18_Separate/01_Original_Screenshots/A04_Iteration1_Room_View.png | PDF 内嵌原图：保留原英文与版本文字 |
 | Echoes of Silence | echoes-pilot-placement.webp | Echoes_English_Original_Assets_18_Separate/01_Original_Screenshots/A01_Pilot_Scattered_Notes.png | PDF 内嵌原图：保留原英文与版本文字 |
 | Echoes of Silence | echoes-iteration1-placement.webp | Echoes_English_Original_Assets_18_Separate/01_Original_Screenshots/A03_Iteration1_Note_Spotlight.png | PDF 内嵌原图：保留原英文与版本文字 |
