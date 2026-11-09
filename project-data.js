@@ -620,7 +620,25 @@ window.PROJECT_DETAILS = [
         }
       }
     ],
-    "videos": [],
+    "download": {
+      "url": "https://zhehan-hu.itch.io/intra-mentem",
+      "label": {
+        "zh": "下载试玩 · itch.io",
+        "en": "Download · itch.io"
+      }
+    },
+    "videos": [
+      {
+        "src": "assets/videos/echoes-of-silence-demo.mp4",
+        "poster": "assets/projects/echoes-video-poster.webp",
+        "featured": true,
+        "duration": "3:04",
+        "caption": {
+          "zh": "Echoes of Silence · 游戏演示 · 3:04",
+          "en": "Echoes of Silence · Gameplay demo · 3:04"
+        }
+      }
+    ],
     "heroPosition": "50% 52%"
   },
   {
