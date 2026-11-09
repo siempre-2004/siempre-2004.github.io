@@ -305,7 +305,79 @@ window.PROJECT_DETAILS = [
         }
       }
     ],
-    "videos": []
+    "videos": [
+      {
+        "src": "assets/videos/limbo-level-1.mp4",
+        "poster": "assets/projects/limbo-level-1-poster.webp",
+        "featured": true,
+        "title": {
+          "zh": "第一关",
+          "en": "Level 1"
+        },
+        "duration": "2:03",
+        "width": 950,
+        "height": 606,
+        "caption": {
+          "zh": "Limbo · 第一关 · 2:03",
+          "en": "Limbo · Level 1 · 2:03"
+        }
+      },
+      {
+        "src": "assets/videos/limbo-level-2.mp4",
+        "poster": "assets/projects/limbo-level-2-poster.webp",
+        "featured": true,
+        "title": {
+          "zh": "第二关",
+          "en": "Level 2"
+        },
+        "duration": "1:52",
+        "width": 964,
+        "height": 590,
+        "caption": {
+          "zh": "Limbo · 第二关 · 1:52",
+          "en": "Limbo · Level 2 · 1:52"
+        }
+      },
+      {
+        "src": "assets/videos/limbo-level-3.mp4",
+        "poster": "assets/projects/limbo-level-3-poster.webp",
+        "featured": true,
+        "title": {
+          "zh": "第三关",
+          "en": "Level 3"
+        },
+        "duration": "2:27",
+        "width": 950,
+        "height": 602,
+        "caption": {
+          "zh": "Limbo · 第三关 · 2:27",
+          "en": "Limbo · Level 3 · 2:27"
+        }
+      },
+      {
+        "src": "assets/videos/limbo-endgame.mp4",
+        "poster": "assets/projects/limbo-endgame-poster.webp",
+        "featured": true,
+        "title": {
+          "zh": "结尾",
+          "en": "Endgame"
+        },
+        "duration": "0:56",
+        "width": 958,
+        "height": 592,
+        "caption": {
+          "zh": "Limbo · 结尾 · 0:56",
+          "en": "Limbo · Endgame · 0:56"
+        }
+      }
+    ],
+    "download": {
+      "url": "https://zhehan-hu.itch.io/limbo",
+      "label": {
+        "zh": "下载试玩 · itch.io",
+        "en": "Download · itch.io"
+      }
+    }
   },
   {
     "id": "echoes",
