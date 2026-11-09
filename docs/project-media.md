@@ -2,7 +2,7 @@
 
 保留完整取景，不用生成插图替代原始运行或测试证据。网页图片仅等比缩小与转换为 WebP；没有放大分辨率或新增画面内容。
 
-主页按照 Limbo、Echoes of Silence、The Dual-Hatted Courtier、AI Prairie、SkyTiles 排列，四国和小型实验放入 Additional Work。原有动态世界、双语切换和六个独立项目网站入口保留。
+主页按照 Echoes of Silence、Limbo、The Dual-Hatted Courtier、AI Prairie、SkyTiles 排列，四国和小型实验放入 Additional Work。原有动态世界、双语切换和六个独立项目网站入口保留。
 
 | 项目 | 网站素材 | 来源文件 | 性质 |
 | --- | --- | --- | --- |
@@ -52,3 +52,5 @@
 | Four Kingdoms | kingdoms-movement-iteration.webp | Four_Kingdoms_Portfolio_Assets/Four_Kingdoms_Handdrawn/21_Iteration_Movement_Ports.png | 原始地图/卡牌与独立排版注释 |
 
 Limbo 展示清理图曾使用生成式图像编辑清除编辑器辅助线；页面已注明展示清理版，迭代分析使用原图。AI Prairie 的四张米白插图是基于项目的展示插图，光标、虚线和选框不作为已实现界面的证据。Echoes 笔记保留各版本原英文与日期，不进行重写。Arcade 的原始照片不替换屏幕或重绘接线，不将两张现场照片当作不同实验条件。Four Kingdoms 个人角色按新材料限定为研究、测试反馈分析和报告撰写；地图和卡牌保留团队原型署名语境。
+
+街机项目的首页封面与详情页顶部现使用用户提供的 `My_movie_2.MP4` 原始装置演示及其截图。“装置连接与现场试玩”中的两张静态照片由四段对应的原始现场录像替换，保留完整竖屏取景，用于展示玩家、控制器与屏幕之间的关系。素材映射和网页处理方式见 [视频来源说明](../assets/videos/README.md)。
