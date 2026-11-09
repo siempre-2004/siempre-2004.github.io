@@ -21,3 +21,13 @@
 .case-video-title{font-size:12px;line-height:1.5}
 .case-video-duration{font:10px var(--mono);margin-left:auto;white-space:nowrap;opacity:.7}
 @media(max-width:760px){.case-video-tabs{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.case-video-tab{padding:14px 12px;gap:9px}}
+
+/* Portrait field recordings sit beside their selectable descriptions. */
+.case-section-footage{margin:30px 0}
+.case-section-footage .case-video-player{min-width:0}
+.case-section-footage .case-figure video{display:block;height:auto;max-height:620px;object-fit:contain}
+.case-section-footage.is-portrait{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);align-items:start;gap:24px}
+.case-section-footage.is-portrait .case-video-tabs{grid-template-columns:1fr;margin-top:0}
+.case-section-footage.is-portrait .case-video-tab{display:grid;grid-template-columns:18px minmax(0,1fr) auto;gap:7px 12px;padding:18px}
+.case-video-summary{grid-column:2/-1;font-size:11px;line-height:1.8;opacity:.8}
+@media(max-width:760px){.case-section-footage.is-portrait{grid-template-columns:1fr;gap:20px}.case-section-footage.is-portrait .case-video-player{width:min(100%,320px);justify-self:center}.case-section-footage.is-portrait .case-video-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}.case-section-footage.is-portrait .case-video-tab{display:flex;gap:9px;padding:14px 12px}.case-section-footage.is-portrait .case-video-index,.case-section-footage.is-portrait .case-video-summary{display:none}}
