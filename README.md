@@ -26,14 +26,6 @@
 
 ## 做过的一些项目
 
-### Limbo · 边缘世界
-
-**Unity / C# / 关卡设计**
-
-玩家在一个由记忆和欲望构成的世界里寻找套娃，集齐后打开出口。我搭建关卡，用灯光、地标和物件引导玩家探索，也编写了收集、重生和场景切换的逻辑。
-
-[图文详情](https://siempre-2004.github.io/projects/limbo.html) · [项目网站](https://limbohu.creght.site/) · [看代码](https://github.com/siempre-2004/Limbo)
-
 ### Echoes of Silence
 
 **Unreal Engine / Blueprint / 团队项目**
@@ -41,6 +33,14 @@
 一款围绕记忆展开的第一人称解谜游戏，包含滑块锁、故事柜和摩斯电码等谜题。我编写故事内容、制作部分 Blueprint 交互逻辑，并创作游戏音乐。项目页里放了不同版本的截图，可以看到线索和谜题是怎样一步步调整的。
 
 [图文详情](https://siempre-2004.github.io/projects/echoes-of-silence.html) · [项目网站](https://intramentem.creght.site/) · [看代码](https://github.com/siempre-2004/IntraMentem)
+
+### Limbo · 边缘世界
+
+**Unity / C# / 关卡设计**
+
+玩家在一个由记忆和欲望构成的世界里寻找套娃，集齐后打开出口。我搭建关卡，用灯光、地标和物件引导玩家探索，也编写了收集、重生和场景切换的逻辑。
+
+[图文详情](https://siempre-2004.github.io/projects/limbo.html) · [项目网站](https://limbohu.creght.site/) · [看代码](https://github.com/siempre-2004/Limbo)
 
 ### The Dual-Hatted Courtier · 双重身份的信使
 
@@ -74,9 +74,9 @@
 
 ## 一些项目画面
 
-| Limbo | Echoes of Silence |
+| Echoes of Silence | Limbo |
 | --- | --- |
-| [![Limbo 关卡](assets/projects/limbo-doll-embrace-clean.png)](https://siempre-2004.github.io/projects/limbo.html) | [![Echoes of Silence 解谜场景](assets/projects/echoes-floating-letters.jpg)](https://siempre-2004.github.io/projects/echoes-of-silence.html) |
+| [![Echoes of Silence 解谜场景](assets/projects/echoes-floating-letters.jpg)](https://siempre-2004.github.io/projects/echoes-of-silence.html) | [![Limbo 关卡](assets/projects/limbo-doll-embrace-clean.png)](https://siempre-2004.github.io/projects/limbo.html) |
 
 ## 常用工具
 

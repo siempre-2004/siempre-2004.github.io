@@ -2,6 +2,340 @@
 // Case-study text and media. Empty videos arrays stay hidden until real footage is added.
 window.PROJECT_DETAILS = [
   {
+    "id": "echoes",
+    "slug": "echoes-of-silence",
+    "title": {
+      "zh": "Echoes of Silence",
+      "en": "Echoes of Silence"
+    },
+    "kicker": {
+      "zh": "叙事解谜 / Unreal Engine",
+      "en": "NARRATIVE PUZZLES / UNREAL ENGINE"
+    },
+    "summary": {
+      "zh": "把记忆碎片，变成解开房间的线索。",
+      "en": "Turn fragments of memory into clues that unlock a room."
+    },
+    "intro": {
+      "zh": "一款以潜意识和记忆重建为主题的第一人称团队解谜游戏。三个房间分别通过滑块、故事柜与摩斯电码，让玩家从观察空间走向理解主角的经历。",
+      "en": "A team-built first-person puzzle game about the subconscious and reconstructing memory. Three rooms use a sliding lock, a story cabinet, and Morse code to connect spatial exploration with the protagonist’s past."
+    },
+    "hero": "assets/projects/echoes-floating-letters.jpg",
+    "heroCaption": {
+      "zh": "漂浮信件走廊 · 原始游戏画面。",
+      "en": "Floating letters in the corridor · original game capture."
+    },
+    "tags": [
+      "Unreal Engine",
+      "Blueprint",
+      "团队项目 / Team project"
+    ],
+    "facts": [
+      {
+        "title": {
+          "zh": "游戏形式",
+          "en": "FORMAT"
+        },
+        "text": {
+          "zh": "第一人称 / 叙事解谜 / 三个房间",
+          "en": "First-person / narrative puzzles / three rooms"
+        }
+      },
+      {
+        "title": {
+          "zh": "我的工作",
+          "en": "MY WORK"
+        },
+        "text": {
+          "zh": "叙事脚本、Blueprint 交互逻辑、原创音乐",
+          "en": "Narrative scripting, Blueprint interactions, and original music"
+        }
+      },
+      {
+        "title": {
+          "zh": "协作范围",
+          "en": "TEAM CONTEXT"
+        },
+        "text": {
+          "zh": "谜题与场景作为团队成果展示",
+          "en": "Puzzles and environments shown as team outcomes"
+        }
+      }
+    ],
+    "sections": [
+      {
+        "id": "puzzles",
+        "title": {
+          "zh": "三个房间，三种解谜方式",
+          "en": "Three rooms, three ways to solve a puzzle"
+        },
+        "lead": {
+          "zh": "玩家先理解位置和形状，再整理文字与逻辑，最后通过声音解码。每个房间用不同的信息形式推进故事。",
+          "en": "The experience moves from positions and shapes to text and logic, then to decoding sound. Each room advances the story through a different kind of information."
+        },
+        "cards": [
+          {
+            "title": {
+              "zh": "01 · 滑块锁",
+              "en": "01 · Sliding Lock"
+            },
+            "text": {
+              "zh": "移动锁块、观察空位与位置关系，找到隐藏的钥匙。第一次解锁对应进入被掩埋的记忆。",
+              "en": "Move the lock blocks, read spatial relationships, and uncover a hidden key: the first step into buried memories."
+            }
+          },
+          {
+            "title": {
+              "zh": "02 · 故事柜",
+              "en": "02 · The Story Cabinet"
+            },
+            "text": {
+              "zh": "阅读散落的信件与编号便条，把分散的叙事信息联系起来，理解柜子与主角过去的关系。",
+              "en": "Read scattered letters and numbered notes, connect narrative fragments, and relate the cabinet to the protagonist’s past."
+            }
+          },
+          {
+            "title": {
+              "zh": "03 · 摩斯电码",
+              "en": "03 · Morse Code"
+            },
+            "text": {
+              "zh": "从留声机的声音信号中辨认编码，结合线索寻找最后的通路。声音同时承担氛围与解谜信息。",
+              "en": "Decode signals from a gramophone and use the clues to find the final passage. Sound carries both atmosphere and puzzle information."
+            }
+          }
+        ],
+        "images": [
+          {
+            "src": "assets/projects/echoes-bookcase-clue.webp",
+            "caption": {
+              "zh": "书柜旁的叙事文字，让场景中的物件与人物记忆发生联系。",
+              "en": "Narrative text beside the bookcase connects an object to a personal memory."
+            }
+          },
+          {
+            "src": "assets/projects/echoes-final-password.webp",
+            "caption": {
+              "zh": "输入密码后的正确提示，明确告诉玩家这一步已经完成。",
+              "en": "A correct-password response confirms that this step is complete."
+            }
+          },
+          {
+            "src": "assets/projects/echoes-gramophone-original.webp",
+            "caption": {
+              "zh": "最终交互中的留声机与 E 键提示，原始游戏画面。",
+              "en": "The gramophone and E-key prompt in the final interaction, original gameplay image."
+            }
+          }
+        ]
+      },
+      {
+        "id": "work",
+        "title": {
+          "zh": "我的工作：叙事、交互与声音",
+          "en": "My work: story, interaction, and sound"
+        },
+        "lead": {
+          "zh": "我编写叙事脚本、搭建部分 Blueprint 交互与谜题逻辑，并创作游戏音乐，把线索阅读、操作反馈与声音连接到解谜过程。",
+          "en": "I wrote narrative material, helped build Blueprint interactions and puzzle logic, and composed music. The overall puzzle structure is a team outcome; these are my specific areas of contribution."
+        },
+        "flow": {
+          "zh": [
+            "观察场景",
+            "尝试操作",
+            "获得视听反馈",
+            "理解线索",
+            "推进故事"
+          ],
+          "en": [
+            "Observe the space",
+            "Try an action",
+            "Receive feedback",
+            "Understand a clue",
+            "Advance the story"
+          ]
+        },
+        "cards": [
+          {
+            "title": {
+              "zh": "让文字成为线索",
+              "en": "Writing as a clue"
+            },
+            "text": {
+              "zh": "故事碎片需要与房间、物件及解谜目标发生联系，玩家才能把读到的信息用于下一步行动。",
+              "en": "Story fragments need to connect to rooms, objects, and puzzle goals so that reading can inform the next action."
+            }
+          },
+          {
+            "title": {
+              "zh": "把操作接入游戏状态",
+              "en": "Connecting actions and state"
+            },
+            "text": {
+              "zh": "通过 Blueprint 中的输入、触发事件与物件状态，连接打开界面、读取线索和谜题进度。",
+              "en": "Blueprint input, trigger events, and object states connect opening interfaces, reading clues, and puzzle progress."
+            }
+          },
+          {
+            "title": {
+              "zh": "用音乐补充情绪",
+              "en": "Supporting the mood with music"
+            },
+            "text": {
+              "zh": "以钢琴为主的原创音乐呼应家庭记忆与主角的心理状态，和房间中的声音线索共同建立氛围。",
+              "en": "Original piano music supports family memories and the protagonist’s emotional state, alongside the rooms’ audio clues."
+            }
+          }
+        ],
+        "images": [
+          {
+            "src": "assets/projects/echoes-interactive-drawer.webp",
+            "caption": {
+              "zh": "抽屉的高亮边框与 E 键提示，帮助玩家找到可操作的物件。",
+              "en": "An outlined drawer and E-key prompt mark an interactive object."
+            }
+          },
+          {
+            "src": "assets/projects/echoes-narrative-note.webp",
+            "caption": {
+              "zh": "把人物记忆放进可阅读的便条，让故事跟随探索逐步出现。",
+              "en": "Readable notes reveal personal memories through exploration."
+            }
+          }
+        ]
+      },
+      {
+        "id": "iteration",
+        "title": {
+          "zh": "真实迭代：从可读文本到解谜线索",
+          "en": "Documented iteration: from readable text to puzzle clues"
+        },
+        "lead": {
+          "zh": "Pilot → Iteration 1 → Iteration 2。这里使用答辩材料中提取的独立原图，保留原版英文和各版本文字，让笔记摆放、档案柜线索与留声机密码的变化能够逐一核对。",
+          "en": "Pilot → Iteration 1 → Iteration 2. These individual images come from the seminar material and preserve the original English and version-specific text, documenting changes to note placement, cabinet clues, and the gramophone passcode."
+        },
+        "comparisons": [
+          {
+            "title": {
+              "zh": "笔记摆放：让线索靠近玩家会调查的位置",
+              "en": "Note placement: bring clues closer to exploration"
+            },
+            "text": {
+              "zh": "Pilot 版的纸条散落在地面；Iteration 1 把笔记移到光源附近，让玩家更容易把它与房间里的探索对象联系起来。",
+              "en": "Notes lie scattered on the floor in the pilot. Iteration 1 moves a note closer to a light source, connecting its placement to exploration in the room."
+            },
+            "before": {
+              "src": "assets/projects/echoes-pilot-placement.webp",
+              "caption": {
+                "zh": "Pilot · 散落在地面的笔记，原始画面。",
+                "en": "Pilot · notes scattered on the floor, original image."
+              }
+            },
+            "after": {
+              "src": "assets/projects/echoes-iteration1-placement.webp",
+              "caption": {
+                "zh": "Iteration 1 · 光线集中区域中的笔记，原始画面。",
+                "en": "Iteration 1 · a note in a concentrated pool of light, original image."
+              }
+            }
+          },
+          {
+            "title": {
+              "zh": "档案柜：把文字线索与抽屉位置连起来",
+              "en": "Cabinet: connect the text to a drawer"
+            },
+            "text": {
+              "zh": "两版原英文笔记都保留具体的位置线索。后续版本重新组织留声机、柜子与记忆之间的关系，读完后仍需要回到场景中找到对应抽屉。",
+              "en": "The original English notes retain concrete location clues. The later version reorganizes the relationship between the gramophone, cabinet, and memories, asking the player to return to the space and identify the drawer."
+            },
+            "before": {
+              "src": "assets/projects/echoes-iteration1-note.webp",
+              "caption": {
+                "zh": "Iteration 1 · 原版英文笔记，保留 4,1 位置文字。",
+                "en": "Iteration 1 · original English note, preserving the 4,1 location text."
+              }
+            },
+            "after": {
+              "src": "assets/projects/echoes-iteration2-note.webp",
+              "caption": {
+                "zh": "Iteration 2 · 原版英文档案柜线索，未重写或翻译画面文字。",
+                "en": "Iteration 2 · original English cabinet clue, with the on-screen wording preserved."
+              }
+            }
+          },
+          {
+            "title": {
+              "zh": "留声机：从编码表到人物经历",
+              "en": "Gramophone: from a code table to a personal memory"
+            },
+            "text": {
+              "zh": "Pilot 版先给出摩斯码对照；之后的笔记逐渐引入留声机、人物记忆与日期，Iteration 2 的原文明确出现生日 08/11。版本中的日期和措辞保持原样。",
+              "en": "The pilot supplies a Morse-code table. Later notes introduce the gramophone, personal memories, and dates; the Iteration 2 text explicitly includes the birthday 08/11. Dates and wording remain unchanged across these source images."
+            },
+            "before": {
+              "src": "assets/projects/echoes-pilot-morse.webp",
+              "caption": {
+                "zh": "Pilot · 原始摩斯码对照笔记。",
+                "en": "Pilot · original Morse-code reference note."
+              }
+            },
+            "after": {
+              "src": "assets/projects/echoes-iteration2-birthday.webp",
+              "caption": {
+                "zh": "Iteration 2 · 原版英文生日线索 08/11。",
+                "en": "Iteration 2 · original English birthday clue, 08/11."
+              }
+            }
+          }
+        ],
+        "images": []
+      }
+    ],
+    "links": [
+      {
+        "url": "https://intramentem.creght.site/",
+        "label": {
+          "zh": "打开项目网站",
+          "en": "Open project website"
+        }
+      },
+      {
+        "url": "https://github.com/siempre-2004/IntraMentem",
+        "label": {
+          "zh": "查看源代码",
+          "en": "Source code"
+        }
+      },
+      {
+        "url": "https://uu.diva-portal.org/smash/get/diva2:2072974/FULLTEXT01.pdf",
+        "label": {
+          "zh": "阅读项目论文",
+          "en": "Read the project thesis"
+        }
+      }
+    ],
+    "download": {
+      "url": "https://zhehan-hu.itch.io/intra-mentem",
+      "label": {
+        "zh": "下载试玩 · itch.io",
+        "en": "Download · itch.io"
+      }
+    },
+    "videos": [
+      {
+        "src": "assets/videos/echoes-of-silence-demo.mp4",
+        "poster": "assets/projects/echoes-video-poster.webp",
+        "featured": true,
+        "duration": "3:04",
+        "caption": {
+          "zh": "Echoes of Silence · 游戏演示 · 3:04",
+          "en": "Echoes of Silence · Gameplay demo · 3:04"
+        }
+      }
+    ],
+    "heroPosition": "50% 52%"
+  },
+  {
     "id": "limbo",
     "slug": "limbo",
     "title": {
@@ -380,340 +714,6 @@ window.PROJECT_DETAILS = [
     }
   },
   {
-    "id": "echoes",
-    "slug": "echoes-of-silence",
-    "title": {
-      "zh": "Echoes of Silence",
-      "en": "Echoes of Silence"
-    },
-    "kicker": {
-      "zh": "叙事解谜 / Unreal Engine",
-      "en": "NARRATIVE PUZZLES / UNREAL ENGINE"
-    },
-    "summary": {
-      "zh": "把记忆碎片，变成解开房间的线索。",
-      "en": "Turn fragments of memory into clues that unlock a room."
-    },
-    "intro": {
-      "zh": "一款以潜意识和记忆重建为主题的第一人称团队解谜游戏。三个房间分别通过滑块、故事柜与摩斯电码，让玩家从观察空间走向理解主角的经历。",
-      "en": "A team-built first-person puzzle game about the subconscious and reconstructing memory. Three rooms use a sliding lock, a story cabinet, and Morse code to connect spatial exploration with the protagonist’s past."
-    },
-    "hero": "assets/projects/echoes-floating-letters.jpg",
-    "heroCaption": {
-      "zh": "漂浮信件走廊 · 原始游戏画面。",
-      "en": "Floating letters in the corridor · original game capture."
-    },
-    "tags": [
-      "Unreal Engine",
-      "Blueprint",
-      "团队项目 / Team project"
-    ],
-    "facts": [
-      {
-        "title": {
-          "zh": "游戏形式",
-          "en": "FORMAT"
-        },
-        "text": {
-          "zh": "第一人称 / 叙事解谜 / 三个房间",
-          "en": "First-person / narrative puzzles / three rooms"
-        }
-      },
-      {
-        "title": {
-          "zh": "我的工作",
-          "en": "MY WORK"
-        },
-        "text": {
-          "zh": "叙事脚本、Blueprint 交互逻辑、原创音乐",
-          "en": "Narrative scripting, Blueprint interactions, and original music"
-        }
-      },
-      {
-        "title": {
-          "zh": "协作范围",
-          "en": "TEAM CONTEXT"
-        },
-        "text": {
-          "zh": "谜题与场景作为团队成果展示",
-          "en": "Puzzles and environments shown as team outcomes"
-        }
-      }
-    ],
-    "sections": [
-      {
-        "id": "puzzles",
-        "title": {
-          "zh": "三个房间，三种解谜方式",
-          "en": "Three rooms, three ways to solve a puzzle"
-        },
-        "lead": {
-          "zh": "玩家先理解位置和形状，再整理文字与逻辑，最后通过声音解码。每个房间用不同的信息形式推进故事。",
-          "en": "The experience moves from positions and shapes to text and logic, then to decoding sound. Each room advances the story through a different kind of information."
-        },
-        "cards": [
-          {
-            "title": {
-              "zh": "01 · 滑块锁",
-              "en": "01 · Sliding Lock"
-            },
-            "text": {
-              "zh": "移动锁块、观察空位与位置关系，找到隐藏的钥匙。第一次解锁对应进入被掩埋的记忆。",
-              "en": "Move the lock blocks, read spatial relationships, and uncover a hidden key: the first step into buried memories."
-            }
-          },
-          {
-            "title": {
-              "zh": "02 · 故事柜",
-              "en": "02 · The Story Cabinet"
-            },
-            "text": {
-              "zh": "阅读散落的信件与编号便条，把分散的叙事信息联系起来，理解柜子与主角过去的关系。",
-              "en": "Read scattered letters and numbered notes, connect narrative fragments, and relate the cabinet to the protagonist’s past."
-            }
-          },
-          {
-            "title": {
-              "zh": "03 · 摩斯电码",
-              "en": "03 · Morse Code"
-            },
-            "text": {
-              "zh": "从留声机的声音信号中辨认编码，结合线索寻找最后的通路。声音同时承担氛围与解谜信息。",
-              "en": "Decode signals from a gramophone and use the clues to find the final passage. Sound carries both atmosphere and puzzle information."
-            }
-          }
-        ],
-        "images": [
-          {
-            "src": "assets/projects/echoes-bookcase-clue.webp",
-            "caption": {
-              "zh": "书柜旁的叙事文字，让场景中的物件与人物记忆发生联系。",
-              "en": "Narrative text beside the bookcase connects an object to a personal memory."
-            }
-          },
-          {
-            "src": "assets/projects/echoes-final-password.webp",
-            "caption": {
-              "zh": "输入密码后的正确提示，明确告诉玩家这一步已经完成。",
-              "en": "A correct-password response confirms that this step is complete."
-            }
-          },
-          {
-            "src": "assets/projects/echoes-gramophone-original.webp",
-            "caption": {
-              "zh": "最终交互中的留声机与 E 键提示，原始游戏画面。",
-              "en": "The gramophone and E-key prompt in the final interaction, original gameplay image."
-            }
-          }
-        ]
-      },
-      {
-        "id": "work",
-        "title": {
-          "zh": "我的工作：叙事、交互与声音",
-          "en": "My work: story, interaction, and sound"
-        },
-        "lead": {
-          "zh": "我编写叙事脚本、搭建部分 Blueprint 交互与谜题逻辑，并创作游戏音乐，把线索阅读、操作反馈与声音连接到解谜过程。",
-          "en": "I wrote narrative material, helped build Blueprint interactions and puzzle logic, and composed music. The overall puzzle structure is a team outcome; these are my specific areas of contribution."
-        },
-        "flow": {
-          "zh": [
-            "观察场景",
-            "尝试操作",
-            "获得视听反馈",
-            "理解线索",
-            "推进故事"
-          ],
-          "en": [
-            "Observe the space",
-            "Try an action",
-            "Receive feedback",
-            "Understand a clue",
-            "Advance the story"
-          ]
-        },
-        "cards": [
-          {
-            "title": {
-              "zh": "让文字成为线索",
-              "en": "Writing as a clue"
-            },
-            "text": {
-              "zh": "故事碎片需要与房间、物件及解谜目标发生联系，玩家才能把读到的信息用于下一步行动。",
-              "en": "Story fragments need to connect to rooms, objects, and puzzle goals so that reading can inform the next action."
-            }
-          },
-          {
-            "title": {
-              "zh": "把操作接入游戏状态",
-              "en": "Connecting actions and state"
-            },
-            "text": {
-              "zh": "通过 Blueprint 中的输入、触发事件与物件状态，连接打开界面、读取线索和谜题进度。",
-              "en": "Blueprint input, trigger events, and object states connect opening interfaces, reading clues, and puzzle progress."
-            }
-          },
-          {
-            "title": {
-              "zh": "用音乐补充情绪",
-              "en": "Supporting the mood with music"
-            },
-            "text": {
-              "zh": "以钢琴为主的原创音乐呼应家庭记忆与主角的心理状态，和房间中的声音线索共同建立氛围。",
-              "en": "Original piano music supports family memories and the protagonist’s emotional state, alongside the rooms’ audio clues."
-            }
-          }
-        ],
-        "images": [
-          {
-            "src": "assets/projects/echoes-interactive-drawer.webp",
-            "caption": {
-              "zh": "抽屉的高亮边框与 E 键提示，帮助玩家找到可操作的物件。",
-              "en": "An outlined drawer and E-key prompt mark an interactive object."
-            }
-          },
-          {
-            "src": "assets/projects/echoes-narrative-note.webp",
-            "caption": {
-              "zh": "把人物记忆放进可阅读的便条，让故事跟随探索逐步出现。",
-              "en": "Readable notes reveal personal memories through exploration."
-            }
-          }
-        ]
-      },
-      {
-        "id": "iteration",
-        "title": {
-          "zh": "真实迭代：从可读文本到解谜线索",
-          "en": "Documented iteration: from readable text to puzzle clues"
-        },
-        "lead": {
-          "zh": "Pilot → Iteration 1 → Iteration 2。这里使用答辩材料中提取的独立原图，保留原版英文和各版本文字，让笔记摆放、档案柜线索与留声机密码的变化能够逐一核对。",
-          "en": "Pilot → Iteration 1 → Iteration 2. These individual images come from the seminar material and preserve the original English and version-specific text, documenting changes to note placement, cabinet clues, and the gramophone passcode."
-        },
-        "comparisons": [
-          {
-            "title": {
-              "zh": "笔记摆放：让线索靠近玩家会调查的位置",
-              "en": "Note placement: bring clues closer to exploration"
-            },
-            "text": {
-              "zh": "Pilot 版的纸条散落在地面；Iteration 1 把笔记移到光源附近，让玩家更容易把它与房间里的探索对象联系起来。",
-              "en": "Notes lie scattered on the floor in the pilot. Iteration 1 moves a note closer to a light source, connecting its placement to exploration in the room."
-            },
-            "before": {
-              "src": "assets/projects/echoes-pilot-placement.webp",
-              "caption": {
-                "zh": "Pilot · 散落在地面的笔记，原始画面。",
-                "en": "Pilot · notes scattered on the floor, original image."
-              }
-            },
-            "after": {
-              "src": "assets/projects/echoes-iteration1-placement.webp",
-              "caption": {
-                "zh": "Iteration 1 · 光线集中区域中的笔记，原始画面。",
-                "en": "Iteration 1 · a note in a concentrated pool of light, original image."
-              }
-            }
-          },
-          {
-            "title": {
-              "zh": "档案柜：把文字线索与抽屉位置连起来",
-              "en": "Cabinet: connect the text to a drawer"
-            },
-            "text": {
-              "zh": "两版原英文笔记都保留具体的位置线索。后续版本重新组织留声机、柜子与记忆之间的关系，读完后仍需要回到场景中找到对应抽屉。",
-              "en": "The original English notes retain concrete location clues. The later version reorganizes the relationship between the gramophone, cabinet, and memories, asking the player to return to the space and identify the drawer."
-            },
-            "before": {
-              "src": "assets/projects/echoes-iteration1-note.webp",
-              "caption": {
-                "zh": "Iteration 1 · 原版英文笔记，保留 4,1 位置文字。",
-                "en": "Iteration 1 · original English note, preserving the 4,1 location text."
-              }
-            },
-            "after": {
-              "src": "assets/projects/echoes-iteration2-note.webp",
-              "caption": {
-                "zh": "Iteration 2 · 原版英文档案柜线索，未重写或翻译画面文字。",
-                "en": "Iteration 2 · original English cabinet clue, with the on-screen wording preserved."
-              }
-            }
-          },
-          {
-            "title": {
-              "zh": "留声机：从编码表到人物经历",
-              "en": "Gramophone: from a code table to a personal memory"
-            },
-            "text": {
-              "zh": "Pilot 版先给出摩斯码对照；之后的笔记逐渐引入留声机、人物记忆与日期，Iteration 2 的原文明确出现生日 08/11。版本中的日期和措辞保持原样。",
-              "en": "The pilot supplies a Morse-code table. Later notes introduce the gramophone, personal memories, and dates; the Iteration 2 text explicitly includes the birthday 08/11. Dates and wording remain unchanged across these source images."
-            },
-            "before": {
-              "src": "assets/projects/echoes-pilot-morse.webp",
-              "caption": {
-                "zh": "Pilot · 原始摩斯码对照笔记。",
-                "en": "Pilot · original Morse-code reference note."
-              }
-            },
-            "after": {
-              "src": "assets/projects/echoes-iteration2-birthday.webp",
-              "caption": {
-                "zh": "Iteration 2 · 原版英文生日线索 08/11。",
-                "en": "Iteration 2 · original English birthday clue, 08/11."
-              }
-            }
-          }
-        ],
-        "images": []
-      }
-    ],
-    "links": [
-      {
-        "url": "https://intramentem.creght.site/",
-        "label": {
-          "zh": "打开项目网站",
-          "en": "Open project website"
-        }
-      },
-      {
-        "url": "https://github.com/siempre-2004/IntraMentem",
-        "label": {
-          "zh": "查看源代码",
-          "en": "Source code"
-        }
-      },
-      {
-        "url": "https://uu.diva-portal.org/smash/get/diva2:2072974/FULLTEXT01.pdf",
-        "label": {
-          "zh": "阅读项目论文",
-          "en": "Read the project thesis"
-        }
-      }
-    ],
-    "download": {
-      "url": "https://zhehan-hu.itch.io/intra-mentem",
-      "label": {
-        "zh": "下载试玩 · itch.io",
-        "en": "Download · itch.io"
-      }
-    },
-    "videos": [
-      {
-        "src": "assets/videos/echoes-of-silence-demo.mp4",
-        "poster": "assets/projects/echoes-video-poster.webp",
-        "featured": true,
-        "duration": "3:04",
-        "caption": {
-          "zh": "Echoes of Silence · 游戏演示 · 3:04",
-          "en": "Echoes of Silence · Gameplay demo · 3:04"
-        }
-      }
-    ],
-    "heroPosition": "50% 52%"
-  },
-  {
     "id": "arcade",
     "slug": "arcade",
     "title": {
@@ -732,11 +732,11 @@ window.PROJECT_DETAILS = [
       "zh": "一款结合实体控制器与屏幕游戏的团队街机作品。玩家白天是信使，夜晚潜入村庄帮助穷人：穿过守卫的巡逻路线，并通过颜色收集任务完成偷取挑战。",
       "en": "A team arcade game combining a physical controller with an on-screen stealth game. A courier serves officials by day and helps the poor at night, navigating guards and completing color-collection challenges."
     },
-    "hero": "assets/projects/arcade-playtest-restored.png",
+    "hero": "assets/projects/arcade-controller-demo-poster.webp",
     "heroPosition": "50% 48%",
     "heroCaption": {
-      "zh": "试玩现场 · 玩家使用自制钓竿控制器操作游戏。照片经过 AI 清晰度与暗部修复。",
-      "en": "Playtest · using the custom fishing-rod controller. Photo enhanced with AI for clarity and shadow detail."
+      "zh": "钓竿控制器、手柄与游戏屏幕，原始装置演示视频截图。",
+      "en": "The fishing-rod controller, handle, and game screen in an original demonstration frame."
     },
     "tags": [
       "Unity",
@@ -823,12 +823,12 @@ window.PROJECT_DETAILS = [
       {
         "id": "prototype",
         "title": {
-          "zh": "从输入想法到可用装置",
-          "en": "From an input idea to a working device"
+          "zh": "装置连接与现场试玩",
+          "en": "Controller setup and hands-on play"
         },
         "lead": {
-          "zh": "输入方式经过探索和调整：早期用摄像头与钓鱼装置尝试控制角色，之后接入颜色感应与 Arduino。计划中的 DancePad 没有进入最终方案。",
-          "en": "The input design changed over time: early camera and fishing-device experiments explored movement, followed by color sensing and Arduino integration. The planned DancePad was not part of the final setup."
+          "zh": "早期尝试摄像头与钓竿控制，之后接入颜色感应与 Arduino；计划中的 DancePad 没有进入最终方案。下面四段录像记录同一套装置的现场操作，展示玩家、控制器和屏幕之间的关系。",
+          "en": "Early experiments used a camera and fishing rod, followed by color sensing and Arduino. The planned DancePad was not part of the final setup. These four on-site recordings show the same controller in use and the relationship between player, controller, and screen."
         },
         "cards": [
           {
@@ -862,19 +862,82 @@ window.PROJECT_DETAILS = [
             }
           }
         ],
-        "images": [
+        "images": [],
+        "videos": [
           {
-            "src": "assets/projects/arcade-controller-closeup.webp",
+            "src": "assets/videos/arcade-onsite-controls.mp4",
+            "poster": "assets/projects/arcade-onsite-controls-poster.webp",
+            "title": {
+              "zh": "装置与屏幕",
+              "en": "Controller & screen"
+            },
+            "duration": "0:07",
+            "width": 720,
+            "height": 1280,
+            "summary": {
+              "zh": "玩家操作钓竿，屏幕显示村庄场景。",
+              "en": "The player uses the rod while the screen shows the village."
+            },
             "caption": {
-              "zh": "钓竿、手柄与接线近景。",
-              "en": "Close-up of the fishing rod, handle, and wiring."
+              "zh": "原始现场录像 · 装置与屏幕 · 0:07",
+              "en": "Original on-site recording · Controller & screen · 0:07"
             }
           },
           {
-            "src": "assets/projects/arcade-fishing-session-original.webp",
+            "src": "assets/videos/arcade-onsite-session.mp4",
+            "poster": "assets/projects/arcade-onsite-session-poster.webp",
+            "title": {
+              "zh": "现场试玩",
+              "en": "Hands-on session"
+            },
+            "duration": "0:41",
+            "width": 720,
+            "height": 1280,
+            "summary": {
+              "zh": "玩家操作、场景切换与任务画面。",
+              "en": "Player actions, scene changes, and task screens."
+            },
             "caption": {
-              "zh": "现场试玩：使用钓竿操作，查看屏幕里的反馈。",
-              "en": "Onsite play: operating the fishing rod while checking the on-screen feedback."
+              "zh": "原始现场录像 · 现场试玩 · 0:41",
+              "en": "Original on-site recording · Hands-on session · 0:41"
+            }
+          },
+          {
+            "src": "assets/videos/arcade-onsite-indicator.mp4",
+            "poster": "assets/projects/arcade-onsite-indicator-poster.webp",
+            "title": {
+              "zh": "指示灯反馈",
+              "en": "Indicator feedback"
+            },
+            "duration": "0:10",
+            "width": 720,
+            "height": 1280,
+            "summary": {
+              "zh": "从屏幕反馈转向装置亮起的红色指示灯。",
+              "en": "From screen feedback to the illuminated red indicator."
+            },
+            "caption": {
+              "zh": "原始现场录像 · 指示灯反馈 · 0:10",
+              "en": "Original on-site recording · Indicator feedback · 0:10"
+            }
+          },
+          {
+            "src": "assets/videos/arcade-onsite-collection.mp4",
+            "poster": "assets/projects/arcade-onsite-collection-poster.webp",
+            "title": {
+              "zh": "颜色收集",
+              "en": "Color collection"
+            },
+            "duration": "0:10",
+            "width": 720,
+            "height": 1280,
+            "summary": {
+              "zh": "颜色收集任务中的现场操作与屏幕反馈。",
+              "en": "On-site interaction and screen feedback during the color-collection task."
+            },
+            "caption": {
+              "zh": "原始现场录像 · 颜色收集 · 0:10",
+              "en": "Original on-site recording · Color collection · 0:10"
             }
           }
         ]
@@ -1001,7 +1064,24 @@ window.PROJECT_DETAILS = [
         }
       }
     ],
-    "videos": []
+    "videos": [
+      {
+        "src": "assets/videos/arcade-controller-demo.mp4",
+        "poster": "assets/projects/arcade-controller-demo-poster.webp",
+        "featured": true,
+        "title": {
+          "zh": "装置演示",
+          "en": "Controller demo"
+        },
+        "duration": "0:28",
+        "width": 854,
+        "height": 480,
+        "caption": {
+          "zh": "原始装置演示 · 钓竿、手柄、装置盒与屏幕 · 0:28",
+          "en": "Original controller demo · rod, handle, enclosure, and screen · 0:28"
+        }
+      }
+    ]
   },
   {
     "id": "prairie",
