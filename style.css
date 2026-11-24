@@ -82,3 +82,15 @@ body{isolation:isolate}
 .kingdoms-cover-card.card-heal{background-position:50% 0;transform:translate(22%,-9%) rotate(-1deg)}
 .kingdoms-cover-card.card-defense{background-position:100% 0;transform:translate(60%,4%) rotate(15deg)}
 .project-image:hover .kingdoms-cover-board{transform:rotate(-3deg) scale(1.055)}
+
+/* A compact note for the project currently in development. */
+.current-project{padding-top:72px;scroll-margin-top:28px}
+.current-project-panel{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:center;gap:48px;padding:38px 40px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+.current-project-heading .eyebrow{color:var(--muted)}
+.current-project h2{font:normal clamp(32px,3.4vw,46px)/1.2 var(--serif);letter-spacing:-1.4px;margin:15px 0 14px;overflow-wrap:anywhere}
+.current-project-type{margin:0;color:var(--muted);font:10px/1.8 var(--mono)}
+.current-project-status{display:inline-flex;align-items:center;gap:8px;padding:7px 11px;border:1px solid var(--line);border-radius:20px;background:var(--paper);color:var(--ink);font:10px/1.5 var(--mono)}
+.current-project-status i{width:5px;height:5px;border-radius:50%;background:#789b4c}
+.current-project-copy>p{margin:18px 0 0;color:var(--copy);font-size:14px;line-height:1.95;max-width:560px}
+html[lang=zh-CN] .current-project h2{font-family:var(--sans);font-size:clamp(30px,3vw,40px);letter-spacing:-.8px}
+@media(max-width:760px){.current-project{padding-top:48px}.current-project-panel{grid-template-columns:1fr;gap:25px;padding:28px 24px}.current-project-copy>p{font-size:13px}.current-project h2{letter-spacing:-1px}}
