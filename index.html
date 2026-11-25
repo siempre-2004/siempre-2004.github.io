@@ -8,7 +8,7 @@
   <title>胡哲瀚 · 游戏设计与开发作品集</title>
   <link rel="icon" type="image/svg+xml" href="./assets/icon.svg">
   <script src="./theme.js"></script>
-  <link rel="stylesheet" href="./style.css?v=480e85485b6c">
+  <link rel="stylesheet" href="./style.css?v=a788c5cf2c16">
 </head>
 <body>
   <canvas id="ambient" class="ambient-layer" aria-hidden="true"></canvas>
@@ -58,27 +58,39 @@
       <div class="about-copy"><div class="eyebrow" data-i18n="aboutEyebrow">02 — 像素背后的人</div><h2 id="about-title" data-i18n="aboutTitle">好奇心，<br>是我的<em>游戏引擎。</em></h2><p data-i18n="aboutOne">我在乌普萨拉大学学习游戏设计，项目涵盖 Unity 关卡与玩法、Unreal 叙事解谜，以及 C++ 游戏 AI 和图形原型。我关心设计选择怎样变成玩家实际能理解、能操作的体验。</p><p data-i18n="aboutTwo">团队项目中，我编写交互逻辑、制作实体控制器输入，并为游戏创作音乐；个人技术项目中，我实现状态机、A* 寻路、地图读取和相机控制。目前希望寻找游戏设计、玩法开发与技术原型相关的机会。</p><p class="music-note" data-i18n="aboutMusic">不写代码的时候，我也为游戏创作音乐。</p><div class="skill-rows"><div><span data-i18n="skillBuild">常用工具</span><p>C++ · C# · Python<br>Unity · Unreal Engine · raylib</p></div><div><span data-i18n="skillExplore">关注方向</span><p data-i18n="skillTopics">关卡设计 · 玩法开发<br>游戏 AI · 图形原型</p></div></div><a class="text-link archive-link" href="https://zhehanhu.creght.site/" target="_blank" rel="noopener noreferrer"><span data-i18n="archiveLink">原作品集网站</span> ↗</a><a class="text-link" href="https://www.linkedin.com/in/zhehan-h-4b0a01293/" target="_blank" rel="noopener noreferrer"><span data-i18n="linkedin">在 LinkedIn 联系我</span> ↗</a></div>
     </div></section>
 
-    <section class="current-project wrap" id="in-progress" aria-labelledby="current-project-title">
-      <div class="current-project-panel">
-        <div class="current-project-heading">
-          <div class="eyebrow" data-i18n="currentEyebrow">我现在在做</div>
-          <h2 id="current-project-title" data-i18n="currentTitle">东京梦华录</h2>
-          <p class="current-project-type" data-i18n="currentType">Unreal Engine 5 · 个人项目</p>
-        </div>
-        <div class="current-project-copy">
-          <span class="current-project-status"><i aria-hidden="true"></i><span data-i18n="currentStatus">开发中</span></span>
-          <p data-i18n="currentDescription">我想用北宋汴京的街巷和日常生活，做一个从普通人视角展开的游戏。目前在搭建城市场景，也在打磨人物动作和交互。</p>
-        </div>
+    <section class="current-project" id="in-progress" aria-labelledby="current-project-title"><div class="wrap">
+      <div class="dj-topline"><span class="eyebrow" data-i18n="currentEyebrow">我现在在做 / 个人项目</span><span class="dj-status"><i aria-hidden="true"></i><span  data-i18n="currentStatus">开发中</span></span></div>
+      <div class="dj-heading">
+        <div><p class="dj-english-name">THE DREAM OF DONGJING</p><h2 id="current-project-title" data-i18n="currentTitle">东京梦华录</h2><p class="dj-hook" data-i18n="djHook">在盛世中生活，在变局中选择。</p></div>
+        <div class="dj-introduction"><p  data-i18n="djIntro">一款从普通人视角展开的历史生活 RPG。以 1119 年汴京为起点，正在从场景与交互原型，走向可连续游玩的 Demo。</p><p class="dj-tools" data-i18n="currentType">UE5.8 · C++ / Blueprint · Blender</p><nav class="dj-nav" aria-label="东京梦华录项目内容"><a href="#dj-vision"><span  data-i18n="djVisionLink">游戏构想</span></a><a href="#dj-progress"><span  data-i18n="djProgressLink">已有进展</span></a><a href="#dj-next"><span  data-i18n="djNextLink">接下来</span></a></nav></div>
       </div>
-    </section>
+      <figure class="dj-hero"><button class="dj-photo" type="button" data-dj-zoom data-dj-src="./assets/projects/dongjing-palace.webp" aria-label="放大图片：皇城与宋徽宗"><img src="./assets/projects/dongjing-palace.webp" alt="皇城与宋徽宗 · UE 场景开发截图" data-dj-alt="djHeroCaption" width="1421" height="976" loading="lazy" decoding="async"><span class="dj-hero-stamp" aria-hidden="true"><b>1119</b><span>BIANJING · NORTHERN SONG</span></span><span class="dj-zoom-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button><figcaption><span  data-i18n="djHeroCaption">皇城与宋徽宗 · UE 场景开发截图</span><span  data-i18n="djPhotoNote">来自实际开发工程</span></figcaption></figure>
+      <div class="dj-vision" id="dj-vision"><div><div class="eyebrow" data-i18n="djVisionEyebrow">01 / 我想做的游戏</div><h3  data-i18n="djVisionTitle">最好的时代，<br>也是最坏的时代。</h3></div><div class="dj-vision-copy"><p  data-i18n="djVisionBody">玩家从普通人的生活开始：做买卖、逛酒肆、骑马、认识街坊。随着年份与局势变化，赋税、治安和战事也会进入日常生活。有人抓住机会，也有人被卷入困境。</p><p  data-i18n="djVisionBodyTwo">我希望这个世界不预设简单的善恶。援助、妥协、告发或反抗，都有各自的处境和代价；玩家做过的选择，也会留在人物关系和这座城里。</p></div></div>
+      <div class="dj-pillars"><div><span class="dj-number">01</span><h4  data-i18n="djPillarOne">生活在汴京</h4><p  data-i18n="djPillarOneBody">从谋生、买卖和探索中，慢慢找到自己的位置。</p></div><div><span class="dj-number">02</span><h4  data-i18n="djPillarTwo">让关系留下痕迹</h4><p  data-i18n="djPillarTwoBody">交情、欠债和过往选择，影响熟人之后的回应。</p></div><div><span class="dj-number">03</span><h4  data-i18n="djPillarThree">和时代一起变化</h4><p  data-i18n="djPillarThreeBody">繁华不会永远停在原地，个人生活与历史事件相遇。</p></div></div>
+      <div class="dj-progress" id="dj-progress"><div class="dj-section-heading"><div><div class="eyebrow" data-i18n="djProgressEyebrow">02 / 已有场景与功能原型</div><h3  data-i18n="djProgressTitle">一座城，正在慢慢有生活。</h3></div><p  data-i18n="djProgressNote">下面是现有工程的开发画面，保留了灰盒、占位角色和动作测试的真实状态。点击图片可以放大。</p></div>
+        <div class="dj-gallery">
+          <figure class="dj-shot dj-shot-wide"><button type="button" class="dj-photo" data-dj-zoom data-dj-src="./assets/projects/dongjing-temple.webp" aria-label="放大图片：街区与寺院"><img src="./assets/projects/dongjing-temple.webp" width="1409" height="1128" alt="建筑、庭院、植被与街巷的空间搭建，逐步从灰盒走向细化。" data-dj-alt="djTempleCaption" loading="lazy" decoding="async"><span class="dj-zoom-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button><figcaption><h4  data-i18n="djTempleTitle">街区与寺院</h4><p  data-i18n="djTempleCaption">建筑、庭院、植被与街巷的空间搭建，逐步从灰盒走向细化。</p></figcaption></figure>
+          <figure class="dj-shot dj-shot-wide"><button type="button" class="dj-photo" data-dj-zoom data-dj-src="./assets/projects/dongjing-street.webp" aria-label="放大图片：从玩家的视角进城"><img src="./assets/projects/dongjing-street.webp" width="1420" height="1145" alt="早期步行与交互测试：在实际尺度中检查道路、建筑和视线。" data-dj-alt="djStreetCaption" loading="lazy" decoding="async"><span class="dj-zoom-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button><figcaption><h4  data-i18n="djStreetTitle">从玩家的视角进城</h4><p  data-i18n="djStreetCaption">早期步行与交互测试：在实际尺度中检查道路、建筑和视线。</p></figcaption></figure>
+          <figure class="dj-shot "><button type="button" class="dj-photo" data-dj-zoom data-dj-src="./assets/projects/dongjing-horse.webp" aria-label="放大图片：骑乘原型"><img src="./assets/projects/dongjing-horse.webp" width="1150" height="640" alt="角色与马匹的动作测试；上下马、转向与动作衔接持续打磨。" data-dj-alt="djHorseCaption" loading="lazy" decoding="async"><span class="dj-zoom-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button><figcaption><h4  data-i18n="djHorseTitle">骑乘原型</h4><p  data-i18n="djHorseCaption">角色与马匹的动作测试；上下马、转向与动作衔接持续打磨。</p></figcaption></figure>
+          <figure class="dj-shot "><button type="button" class="dj-photo" data-dj-zoom data-dj-src="./assets/projects/dongjing-guard.webp" aria-label="放大图片：让人物进入世界"><img src="./assets/projects/dongjing-guard.webp" width="1150" height="640" alt="禁军已放入城墙场景，继续完善站岗、巡逻和人物动作。" data-dj-alt="djGuardCaption" loading="lazy" decoding="async"><span class="dj-zoom-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button><figcaption><h4  data-i18n="djGuardTitle">让人物进入世界</h4><p  data-i18n="djGuardCaption">禁军已放入城墙场景，继续完善站岗、巡逻和人物动作。</p></figcaption></figure>
+          <figure class="dj-shot "><button type="button" class="dj-photo" data-dj-zoom data-dj-src="./assets/projects/dongjing-city.webp" aria-label="放大图片：城市布局"><img src="./assets/projects/dongjing-city.webp" width="1420" height="1145" alt="俯瞰早期汴京布局：主轴、街区、城墙与地标之间的关系。" data-dj-alt="djCityCaption" loading="lazy" decoding="async"><span class="dj-zoom-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button><figcaption><h4  data-i18n="djCityTitle">城市布局</h4><p  data-i18n="djCityCaption">俯瞰早期汴京布局：主轴、街区、城墙与地标之间的关系。</p></figcaption></figure>
+        </div>
+        <div class="dj-systems"><div><h4  data-i18n="djSystemsOne">场景与人物</h4><p  data-i18n="djSystemsOneBody">汴京街巷、皇城、城墙与寺院区域已有场景基础，宋徽宗、禁军等人物已进入关卡。</p></div><div><h4  data-i18n="djSystemsTwo">移动与交互</h4><p  data-i18n="djSystemsTwoBody">已有步行、NPC 交互、骑马与上下马原型，持续调整动作、镜头和碰撞。</p></div><div><h4  data-i18n="djSystemsThree">经济与记录</h4><p  data-i18n="djSystemsThreeBody">钱币账簿、交易和存档已有部分实现，正把分散功能串成连续的生活体验。</p></div></div>
+        <div class="dj-role"><span class="eyebrow" data-i18n="djRoleLabel">我的工作</span><p  data-i18n="djRole">游戏构想、玩法规划与开发整合；结合 Blender 和 AI 辅助工具，持续制作、检查并迭代场景与角色。</p></div>
+      </div>
+      <div class="dj-next" id="dj-next"><div class="dj-next-heading"><div class="eyebrow" data-i18n="djNextEyebrow">03 / 接下来要做的事</div><h3  data-i18n="djNextTitle">从能走进去，到想留下来。</h3></div><div class="dj-roadmap"><article><span class="dj-road-number">01</span><div><span class="dj-stage" data-i18n="djNowStatus">正在打磨</span><h4  data-i18n="djNowTitle">让现有体验站稳</h4><p  data-i18n="djNowBody">人物走停与转身、骑乘手感、攀爬和水面细节；同时推进历史开场与书斋氛围。</p></div></article><article><span class="dj-road-number">02</span><div><span class="dj-stage" data-i18n="djDemoStatus">下一步 Demo 目标</span><h4  data-i18n="djDemoTitle">2–4 人，一次有后果的事件</h4><p  data-i18n="djDemoBody">创建与加入房间，共享时间、行动和经济状态。在一次税赋或军需事件中合作、选择，再看到 NPC 与关系的变化。</p></div></article><article><span class="dj-road-number">03</span><div><span class="dj-stage" data-i18n="djFutureStatus">长期构想</span><h4  data-i18n="djFutureTitle">让城市记住不同的人生</h4><p  data-i18n="djFutureBody">探索受约束的 AI NPC 对话、声望与司法、汴京至杭州的旅行，以及走向 1127 年的历史分支。</p></div></article></div><p class="dj-scope-note" data-i18n="djScopeNote">联机与长期构想中的系统属于后续目标，将随实际开发逐步更新。</p></div>
+      <div class="dj-closing"><p  data-i18n="djClosing">把一座有轮廓的汴京，做成真正有人生活的世界。</p><a href="#in-progress"><span  data-i18n="djBackTop">回到项目开头</span><span aria-hidden="true">↑</span></a></div>
+    </div></section>
 
     <section class="contact wrap" id="contact" aria-labelledby="contact-title"><div class="eyebrow" data-i18n="contactEyebrow">03 — 下一个关卡</div><div class="contact-main"><h2 id="contact-title" data-i18n="contactTitle">有个有趣的想法？<br>一起把它<em>做出来。</em></h2><a class="contact-orb" href="mailto:huzhehanhuzhehan@gmail.com" aria-label="给胡哲瀚发邮件"><span aria-hidden="true">↗</span></a></div><div class="contact-bottom"><a class="email" href="mailto:huzhehanhuzhehan@gmail.com">huzhehanhuzhehan@gmail.com</a><p data-i18n="contactNote">游戏、图形，<br>或者一个还没被想出来的新点子。</p></div></section>
   </main>
   <footer class="footer wrap"><span>© <span id="year">2026</span> 胡哲瀚 · Zhehan Hu</span><span data-i18n="footerNote">由好奇心驱动。欢迎亲手探索。</span><a href="#home"><span data-i18n="backTop">回到顶部</span> ↑</a></footer>
-  <script src="./content.js?v=56ad98081660" defer></script>
+  <dialog id="dj-gallery-dialog" class="dj-lightbox" aria-labelledby="dj-lightbox-caption"><div class="dj-lightbox-toolbar"><span id="dj-lightbox-count"></span><button id="dj-lightbox-close" type="button" aria-label="关闭图片">×</button></div><img id="dj-lightbox-image" alt=""><p id="dj-lightbox-caption"></p><div class="dj-lightbox-nav"><button id="dj-lightbox-prev" type="button" aria-label="上一张图片">←</button><button id="dj-lightbox-next" type="button" aria-label="下一张图片">→</button></div></dialog>
+  <script src="./content.js?v=6d6058b76030" defer></script>
   <script src="./world.js" defer></script>
   <script src="./ambient.js" defer></script>
   <script src="./covers.js" defer></script>
   <script src="./app.js" defer></script>
+  <script src="./dongjing.js?v=7ca48831fa1f" defer></script>
 </body>
 </html>
